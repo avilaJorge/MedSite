@@ -1,0 +1,230 @@
+<!-- Hero Section -->
+<section class="jumbotron no-padding no-margin hero-video" id="HeroShotTop">
+    <div id="herovid-button">
+        <button type='button' aria-label='Pause or Play Video'><i class="fa fa-play fa-3" aria-hidden="true"></i>
+            / <i class="fa fa-pause fa-3" aria-hidden="true"></i></button>
+    </div>
+    <div class="container-fluid no-padding">
+        <div class="row no-margin no-padding">
+            <video poster="/PublishingImages/som-home-video-still.jpg" id="herovid" class="fadeIn" playsinline autoplay muted>
+            </video>
+        </div>
+    </div>
+</section>
+<script>
+    if (window.innerWidth < 768) {
+        $("#HeroShotTop").css({
+            "background-image" : "url(/PublishingImages/som-home-hero-768.jpg)",
+            "background-repeat" : "no-repeat",
+            "background-size" : "cover",
+            "background-position" : "center center"
+        });
+    } else {
+        document.getElementById('herovid').innerHTML = '<source src="/Documents/som-video.mp4" type="video/mp4">';
+    }
+    $(window).resize(function() {
+        if (window.innerWidth < 768) {
+            $("#HeroShotTop").css({
+                "background-image" : "url(/PublishingImages/som-home-hero-768.jpg)",
+                "background-repeat" : "no-repeat",
+                "background-size" : "cover",
+                "background-position" : "center center"
+            });
+        } else {
+            document.getElementById('herovid').innerHTML = '<source src="/Documents/som-video.mp4" type="video/mp4">';
+        }
+    });
+    function vidRun() {
+        var inDesignMode = document.forms[MSOWebPartPageFormName].MSOLayout_InDesignMode.value;
+        var vid = document.getElementById("herovid");
+        var pauseButton = document.querySelector("#herovid-button button");
+
+        if (inDesignMode == "1") {
+            vid.pause();
+            pauseButton.style.display = "none";
+        }
+        if (window.innerWidth < 768) {
+            $('#herovid-button').hide();
+            $('#herovid').hide();
+        } else {
+            $('#herovid-button').show();
+            $('#herovid').show();
+        }
+
+        $(window).resize(function() {
+            if (window.innerWidth < 768) {
+                $('#herovid-button').hide();
+                $('#herovid').hide();
+            } else {
+                $('#herovid-button').show();
+                $('#herovid').show();
+            }
+        });
+
+        if (window.matchMedia('(prefers-reduced-motion)').matches) {
+            vid.removeAttribute("autoplay");
+            vid.pause();
+            pauseButton.innerHTML = "Paused"; /* Paused */
+        }
+
+        function vidFade() {
+            vid.classList.add("stopfade");
+        }
+
+        vid.addEventListener('ended', function() {
+            // only functional if "loop" is removed
+            vid.pause();
+            // to capture IE10
+            vidFade();
+        });
+
+        pauseButton.addEventListener("click", function() {
+            vid.classList.toggle("stopfade");
+            if (vid.paused) {
+                vid.play();
+                $(pauseButton).html('<i class="fa fa-pause fa-5" aria-hidden="true"></i>');
+            } else {
+                vid.pause();
+                $(pauseButton).html('<i class="fa fa-play fa-5" aria-hidden="true"></i>');
+
+            }
+        })
+
+    }
+    $(document).ready(vidRun());
+</script>
+<!-- YELLOW BAR HERE with 25% button -->
+<section class="jumbotron medyellowbackground">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="ctl00_PlaceHolderMain_ctl01_label" style='display:none'>Bts Content Area 1</div><div id="ctl00_PlaceHolderMain_ctl01__ControlWrapper_RichHtmlField" class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl01_label"><div class="col-lg-9 col-md-9 col-sm-12"><p class="no-margin no-padding">For more than 50 years, UC San Diego School of Medicine has trained a different kind of doctor in a different kind of way.</p></div><div class="col-lg-3 col-md-3 col-sm-12 text-center">
+                <a class="btn btn-primary btn-lg" href="/about/50-years" style="margin-top&#58;15px;">Explore Our History</a></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $(document).ready(function() {
+        $(".image-container").mouseover(function(){
+            $(this).addClass("slide-out");
+        });
+        $(".image-container").mouseout(function(){
+            $(this).removeClass("slide-out");
+        });
+        $(".image").mouseover(function(){
+            $(this).addClass("slide-out");
+        });
+        $(".image").mouseout(function(){
+            $(this).removeClass("slide-out");
+        });
+        $(".image-cover").mouseover(function(){
+            $(this).addClass("dark");
+        });
+        $(".image-cover").mouseout(function(){
+            $(this).removeClass("dark");
+        });
+    });
+</script>
+<!-- THREE ITEMS -->
+<section class="jumbotron jumbotron-white no-padding three-boxes">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="ctl00_PlaceHolderMain_ctl02_label" style='display:none'>Bts Content Area 2</div><div id="ctl00_PlaceHolderMain_ctl02__ControlWrapper_RichHtmlField" class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl02_label"><span>
+   <div class="triple-hover-box-panel"><div class="panel-content panel-hover-boxes"><div class="hover-boxes row clearfix"><div class="col-md-4"><div class="hover-box-item hover-box-col "><div class="hover-box-wrapper hover-box-text" style="height&#58;300px;"><div class="hover-box-image box1">&#160;</div><div class="hover-box-content hover-color"><div class="hover-intro-wrapper"><div class="hover-intro"><h3 class="hover-box-title">Education</h3></div></div><div class="hover-expanded-text"><h3 class="hover-box-title">Education</h3>
+                           <a class="continue-link" href="/education">A collaborative learning environment vibrant with the excitement of exploration and invention</a><br></div>
+                        <a class="hover-box-link" href="/education" style="border-color&#58;#66afe9;outline&#58;0px;">
+                           <span class="sr-text">Education at UCSD School of Medicine</span></a> </div></div></div></div><div class="col-md-4"><div class="hover-box-item hover-box-col "><div class="hover-box-wrapper hover-box-text" style="height&#58;300px;"><div class="hover-box-image box2">&#160;</div><div class="hover-box-content hover-color"><div class="hover-intro-wrapper"><div class="hover-intro"><h3 class="hover-box-title">Research</h3></div>
+                        <br></div><div class="hover-expanded-text"><h3 class="hover-box-title">Research</h3>
+                           <a class="continue-link" href="/research">Pioneering firsts in surgery, imaging, cancer treatment, cardiovascular care and more</a><br></div>
+                        <a class="hover-box-link" href="/research">
+                           <span class="sr-text">Learn About Research at UCSD School of Medicine</span></a></div></div></div></div><div class="col-md-4"><div class="hover-box-item hover-box-col "><div class="hover-box-wrapper hover-box-text" style="height&#58;300px;"><div class="hover-box-image box3">&#160;</div><div class="hover-box-content hover-color"><div class="hover-intro-wrapper"><div class="hover-intro"><h3 class="hover-box-title">Patients</h3></div></div><div class="hover-expanded-text"><h3 class="hover-box-title">Patients</h3>
+                           <a class="continue-link" href="https&#58;//health.ucsd.edu/" target="_blank">Dedicated to treating each patient as an individual, from routine visits to advanced specialty procedures</a><br><br></div>
+                        <a class="hover-box-link" href="https&#58;//health.ucsd.edu/" target="_blank">
+                           <span class="sr-text">Learn about Patient Care</span></a></div></div></div></div></div></div></div></span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 50 / 50 CONTENT SECTION HERE - BLUETRITON -->
+<section class="jumbotron jumbotron-gray text-dark bluestripes" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div id="ctl00_PlaceHolderMain_ctl03_label" style='display:none'>Bts Content Area 3</div><div id="ctl00_PlaceHolderMain_ctl03__ControlWrapper_RichHtmlField" class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl03_label"><h2 class="white-text">Where Discoveries are Delivered</h2><p>Medicine has evolved since the inaugural class entered in 1968, but our goal is constant&#58; Create physicians and scientists who are as compassionate as they are brilliant. </p><p>
+                <a class="btn btn-gold btn-lg" href="/about">About the School of Medicine</a></p></div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div id="ctl00_PlaceHolderMain_ctl04_label" style='display:none'>Bts Content Area 4</div><div id="ctl00_PlaceHolderMain_ctl04__ControlWrapper_RichHtmlField" class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl04_label"><p>​<br></p><div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read 2582d117-8369-41b8-b0ea-578ab1b07c5b" id="div_2582d117-8369-41b8-b0ea-578ab1b07c5b" unselectable="on"><div id="MSOZoneCell_WebPartctl00_ctl53_g_2582d117_8369_41b8_b0ea_578ab1b07c5b" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+                <div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+                    <div WebPartID="e0d0a5c9-1470-42cc-b7e8-642c70cb20b5" WebPartID2="2582d117-8369-41b8-b0ea-578ab1b07c5b" HasPers="false" id="WebPartctl00_ctl53_g_2582d117_8369_41b8_b0ea_578ab1b07c5b" width="100%" class="ms-WPBody noindex " allowRemove="false" allowDelete="false" allowExport="false" style="" ><div id="ctl00_ctl53_g_2582d117_8369_41b8_b0ea_578ab1b07c5b">
+                        <DIV class="ms-rte-embedcode ms-rte-embedwp"><div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/IFx3gQ-Qz_Q?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div></DIV>
+                    </div><div class="ms-clear"></div></div>
+                </div>
+            </div></div><div id="vid_2582d117-8369-41b8-b0ea-578ab1b07c5b" unselectable="on" style="display&#58;none;"></div></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- STATS CAROUSEL HERE -->
+<section class="jumbotron" id="stats-carousel">
+    <div class="container">
+        <div class="row no-margin">
+            <div class="col-lg-12">
+                <div id="ctl00_PlaceHolderMain_ctl05_label" style='display:none'>Bts Content Area 5</div><div id="ctl00_PlaceHolderMain_ctl05__ControlWrapper_RichHtmlField" class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl05_label"><div class="slick-wrapper"><div class="slick-carousel-container"><div><h3>2,300+</h3><p>Students, Postdocs, Residents &amp; Fellows</p></div><div><h3>1,500+<br></h3><p>Faculty<br></p></div><div><h3>10<sup style="font-size&#58;16px;vertical-align&#58;super;">th</sup></h3><p>Highest NIH Funding <br> FY2017<br></p></div><div><h3>18<br></h3><p>Departments</p></div><div><h3>$686M</h3><p>Faculty Research<br> Awards FY2018<br></p></div><div><h3>78</h3><p>Residency &amp; Fellowship<br> Programs</p></div></div></div><div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read a67c5392-ea58-46b7-8241-566b895d1f00" id="div_a67c5392-ea58-46b7-8241-566b895d1f00" unselectable="on"><div id="MSOZoneCell_WebPartctl00_ctl53_g_a67c5392_ea58_46b7_8241_566b895d1f00" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+                <div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+                    <div WebPartID="1e173dfb-0c79-4e47-972e-b37dbb716544" WebPartID2="a67c5392-ea58-46b7-8241-566b895d1f00" HasPers="false" id="WebPartctl00_ctl53_g_a67c5392_ea58_46b7_8241_566b895d1f00" width="100%" class="ms-WPBody noindex " allowRemove="false" allowDelete="false" allowExport="false" style="" ><div id="ctl00_ctl53_g_a67c5392_ea58_46b7_8241_566b895d1f00">
+                        <DIV class="ms-rte-embedcode ms-rte-embedwp"><script>
+                            $(document).ready(function(){
+                                if (inDesignMode !== "1") {
+                                    $('.slick-carousel-container').slick({
+                                        dots: false,
+                                        infinite: true,
+                                        speed: 300,
+                                        slidesToShow: 3,
+                                        slidesToScroll: 3,
+                                        responsive: [
+                                            {
+                                                breakpoint: 1024,
+                                                settings: {
+                                                    slidesToShow: 3,
+                                                    slidesToScroll: 3,
+                                                    infinite: true,
+                                                    dots: false
+                                                }
+                                            },
+                                            {
+                                                breakpoint: 600,
+                                                settings: {
+                                                    slidesToShow: 2,
+                                                    slidesToScroll: 2
+                                                }
+                                            },
+                                            {
+                                                breakpoint: 480,
+                                                settings: {
+                                                    slidesToShow: 1,
+                                                    slidesToScroll: 1
+                                                }
+                                            }
+                                            // You can unslick at a given breakpoint now by adding:
+                                            // settings: "unslick"
+                                            // instead of a settings object
+                                        ]
+                                    });
+                                }
+                            });k
+                        </script></DIV>
+                    </div><div class="ms-clear"></div></div>
+                </div>
+            </div></div><div id="vid_a67c5392-ea58-46b7-8241-566b895d1f00" unselectable="on" style="display&#58;none;"></div></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
