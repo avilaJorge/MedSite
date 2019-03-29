@@ -2,42 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a089365c-5644-4102-ab8c-c80991cb1273" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Advani-Sunil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Atwood-Todd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Brown-Derek.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Cervino-Laura.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Choi-Dongju.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Dragojevic-Irena.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Grover-Ryan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Gwe-Ya-Kim-Grace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Hattangadi-Gluth-Jona.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Hoffman-David.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Hoisak-Jeremy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Hoopes-David.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/MacEwan-Iain.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Majumdar-Amitava.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Mansy-Gina.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Mayadev-Jyoti.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/McDonald-Carrie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Murphy-James.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Rahn-Douglas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Rash-Dominique.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Rose-Brent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Rossi-Carl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Sandhu-Ajay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Sharabi-Andrew.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Simpson-Daniel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Urbanic-James.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/White-Evan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People/Faculty/Yashar-Catheryn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/People/Faculty/Manger-Ryan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/People/Faculty/Moiseenko-Vitali.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/People/Faculty/Moore-Kevin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/People/Faculty/Ning-Trent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/People/Faculty/Scanderbeg-Dan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/People/Faculty/Einck-John.html" beforeDir="false" afterPath="$PROJECT_DIR$/People/Faculty/Einck-John.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/People/Faculty/Mell-Loren.html" beforeDir="false" afterPath="$PROJECT_DIR$/People/Faculty/Mell-Loren.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/People/Faculty/Pawlicki-Todd.html" beforeDir="false" afterPath="$PROJECT_DIR$/People/Faculty/Pawlicki-Todd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/People/Faculty/Sanghvi-Parag.html" beforeDir="false" afterPath="$PROJECT_DIR$/People/Faculty/Sanghvi-Parag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/People/Faculty/arno-mundt.html" beforeDir="false" afterPath="$PROJECT_DIR$/People/Faculty/arno-mundt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/People/Faculty/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/People/Faculty/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/People/Faculty/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/People/Faculty/template.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,10 +24,9 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/People/Faculty/Majumdar-Amitava.html">
+            <entry file="file://$PROJECT_DIR$/People/Faculty/Scanderbeg-Dan.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="936">
-                  <caret line="52" column="554" selection-end-line="58" selection-end-column="26" />
+                <state>
                   <folding>
                     <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -75,15 +45,14 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/People/Faculty/template.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="9" column="37" lean-forward="true" selection-end-line="61" selection-end-column="26" />
+                <state relative-caret-position="810">
+                  <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
                   <folding>
                     <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -92,8 +61,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/People/Faculty/default.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1199">
-                  <caret line="184" column="27" selection-end-line="222" selection-end-column="21" />
+                <state>
                   <folding>
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -140,11 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rotator-a-trigger.xsl" />
-        <option value="$PROJECT_DIR$/rotator-a.xsl" />
-        <option value="$PROJECT_DIR$/People/LandingPage.html" />
-        <option value="$PROJECT_DIR$/People/people_carousel.html" />
-        <option value="$PROJECT_DIR$/PatientCare/rotator-a.xsl" />
         <option value="$PROJECT_DIR$/People/people_landing_rotator.js" />
         <option value="$PROJECT_DIR$/People/people_landing_rotator.xsl" />
         <option value="$PROJECT_DIR$/Research/research_carousel.html" />
@@ -190,6 +153,11 @@
         <option value="$PROJECT_DIR$/People/Faculty/Hoisak-Jeremy.html" />
         <option value="$PROJECT_DIR$/People/Faculty/Gwe-Ya-Kim-Grace.html" />
         <option value="$PROJECT_DIR$/People/Faculty/Majumdar-Amitava.html" />
+        <option value="$PROJECT_DIR$/People/Faculty/Manger-Ryan.html" />
+        <option value="$PROJECT_DIR$/People/Faculty/Moiseenko-Vitali.html" />
+        <option value="$PROJECT_DIR$/People/Faculty/Moore-Kevin.html" />
+        <option value="$PROJECT_DIR$/People/Faculty/Ning-Trent.html" />
+        <option value="$PROJECT_DIR$/People/Faculty/Scanderbeg-Dan.html" />
         <option value="$PROJECT_DIR$/People/Faculty/default.html" />
       </list>
     </option>
@@ -286,12 +254,12 @@
       <workItem from="1552459282649" duration="3160000" />
       <workItem from="1552545827023" duration="312000" />
       <workItem from="1553729839644" duration="14552000" />
-      <workItem from="1553809026836" duration="16818000" />
+      <workItem from="1553809026836" duration="19653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90865000" />
+    <option name="totallyTimeSpent" value="93700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3833" y="-7" width="2575" height="1415" extended-state="6" />
@@ -320,46 +288,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Education/education_carousel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/About/EducationPage.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Research/ResearchLanding.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="113" column="9" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Education/EducationLanding.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="114" column="62" selection-start-line="114" selection-start-column="62" selection-end-line="114" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#section#4;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/People/LandingPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/About/carousel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -840,21 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/People/Faculty/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="37" lean-forward="true" selection-end-line="61" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/People/Faculty/Choi-Dongju.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -944,8 +857,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/People/Faculty/Majumdar-Amitava.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="554" selection-end-line="58" selection-end-column="26" />
+        <state relative-caret-position="108">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/People/Faculty/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/People/Faculty/Manger-Ryan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="56" selection-end-line="60" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/People/Faculty/Moiseenko-Vitali.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/People/Faculty/Moore-Kevin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/People/Faculty/Ning-Trent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h4#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/People/Faculty/Scanderbeg-Dan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -958,8 +956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/People/Faculty/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1199">
-          <caret line="184" column="27" selection-end-line="222" selection-end-column="21" />
+        <state>
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
