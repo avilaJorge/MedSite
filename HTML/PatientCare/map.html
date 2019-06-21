@@ -4,15 +4,15 @@
         /* Always set the map height explicitly to define the size of the div
          * element that contains the map. */
         #map {
-            height: 400px;
+            height: 680px;
         }
     </style>
     <div id="map"></div>
 </section>
 <script>
     let map;
-    let miw = 100;
-    let mih = 100;
+    let infoWindow;
+    let zoom = 10;
 
     let coords = {
         mcc: {lat: 32.8786467, lng: -117.2230577},
@@ -20,7 +20,12 @@
         enc: {lat: 33.0580584, lng: -117.2601678},
         prt: {lat: 32.89327, lng: -117.17038},
         vst: {lat: 32.6509861, lng: -116.9610962},
-        cnt: {lat: 32.845627, lng: -117.116684}
+        cnt: {lat: 32.97415548947729, lng: -117.16902758165508},
+        mcc_off: {lat: 32.84767086161027,  lng: -117.42910770605471},
+        r4s_off: {lat:  33.14023197384485, lng: -116.97454837988283},
+        enc_off: {lat: 33.13616123329785,  lng: -117.32199100683596},
+        prt_off: {lat: 32.91686724597122,  lng: -116.89352420996096},
+        vst_off: {lat: 32.70333836830159,  lng: -116.9635620517578},
     };
     let place_ids = {
         mcc: 'ChIJRc0FMNgG3IARvf0D6nIGjZQ',
@@ -29,12 +34,19 @@
         prt: 'ChIJ7ffd_Kb424AR5yoF5f55KR4',
         vst: 'ChIJWWbbUBNF2YARKyQMmA9IMJw'
     };
+    let url_nm = {
+        mcc: 'Moores+Cancer+Center',
+        r4s: 'UCSD+Center+for+Neuromodulation',
+        enc: '1200+Garden+View+Rd%2C+Encinitas%2C+CA+92024',
+        prt: 'California+Protons+Cancer+Therapy+Center',
+        vst: '959+Lane+Ave+Chula+Vista%2C+CA+91914'
+    };
     let loc_nm = {
-        mcc: 'Moores Cancer Center (La Jolla)',
-        r4s: 'UCSD Center for Neuromodulation (4S Ranch)',
-        enc: 'UC San Diego Health (Encinitas)',
-        prt: 'California Protons Cancer Therapy Center',
-        vst: 'UC San Diego Health (Chula Vista)'
+        mcc: 'Moores Cancer Center',
+        r4s: 'UCSD Center for Neuromodulation<br> (4S Ranch)',
+        enc: 'UC San Diego Health',
+        prt: 'California Protons<br> Cancer Therapy Center',
+        vst: 'UC San Diego Health'
     };
     let loc_addr = {
         mcc: '3855 Health Sciences Drive<br>' +
@@ -55,18 +67,22 @@
         prt: 'https://www.dropbox.com/s/9wrvm4n9d1bb7r1/Proton%20Outside.png?raw=1',
         vst: 'https://www.dropbox.com/s/5f1s6be0o4ywsw0/Chula_Vista.jpg?raw=1'
     };
-    function gen_html(name, addr, img) {
+    function gen_html(name, addr, img, url_nm, place_id) {
         return '<div><strong>' + name + '</strong><br>'
         + addr + '<br>' +
-        '<img src=' + img + " style='height:90px;width:160px;'/>" +
+        '<img src=' + img + " style='height:90px;width:160px;'/><br>" +
+        `<a href='https://www.google.com/maps/search/?api=1&query=${url_nm}&query_place_id=${place_id}' target='_blank'>Open in Google Maps</a>` +
         '</div>';
     }
 
     function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
             center: coords.cnt,
-            zoom: 8
+            zoom: zoom
         });
+        infoWindow = new google.maps.InfoWindow;
+
+        map.addListener('click', printCoords);
 
         let mcc_req = {
             placeId: place_ids.mcc,
@@ -90,24 +106,23 @@
         };
 
         let mcc_iw = new google.maps.InfoWindow({
-            content: gen_html(loc_nm.mcc, loc_addr.mcc, imgs.mcc),
-            pixelOffset: new google.maps.Size(-250, -150, 'px', 'px')
+            content: gen_html(loc_nm.mcc, loc_addr.mcc, imgs.mcc, url_nm.mcc, place_ids.mcc),
+            position: coords.mcc_off
         });
         let r4s_iw = new google.maps.InfoWindow({
-            content: gen_html(loc_nm.r4s, loc_addr.r4s, imgs.r4s),
-            pixelOffset: new google.maps.Size(-250, 150, 'px', 'px')
+            content: gen_html(loc_nm.r4s, loc_addr.r4s, imgs.r4s, url_nm.r4s, place_ids.r4s),
+            position: coords.r4s_off
         });
         let enc_iw = new google.maps.InfoWindow({
-            content: gen_html(loc_nm.enc, loc_addr.enc, imgs.enc),
-            pixelOffset: new google.maps.Size(250, 150, 'px', 'px')
+            content: gen_html(loc_nm.enc, loc_addr.enc, imgs.enc, url_nm.enc, place_ids.enc),
+            position: coords.enc_off
         });
         let prt_iw = new google.maps.InfoWindow({
-            content: gen_html(loc_nm.prt, loc_addr.prt, imgs.prt),
-            pixelOffset: new google.maps.Size(50, 0, 'px', 'px')
+            content: gen_html(loc_nm.prt, loc_addr.prt, imgs.prt, url_nm.prt, place_ids.prt),
+            position: coords.prt_off
         });
         let vst_iw = new google.maps.InfoWindow({
-            content: gen_html(loc_nm.vst, loc_addr.vst, imgs.vst),
-            pixelOffset: new google.maps.Size(250, -150, 'px', 'px')
+            content: gen_html(loc_nm.vst, loc_addr.vst, imgs.vst, url_nm.vst, place_ids.vst),
         });
 
         let mcc_mrkr = new google.maps.Marker({
@@ -141,11 +156,65 @@
             position: coords.vst
         });
 
-        mcc_iw.open(map, mcc_mrkr);
-        r4s_iw.open(map, r4s_mrkr);
-        enc_iw.open(map, enc_mrkr);
-        prt_iw.open(map, prt_mrkr);
+        let mcc_path = new google.maps.Polyline({
+            path: [coords.mcc, coords.mcc_off],
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+        let r4s_path = new google.maps.Polyline({
+            path: [coords.r4s, coords.r4s_off],
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+        let enc_path = new google.maps.Polyline({
+            path: [coords.enc, coords.enc_off],
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+        let prt_path = new google.maps.Polyline({
+            path: [coords.prt, coords.prt_off],
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+        mcc_path.setMap(map);
+        r4s_path.setMap(map);
+        enc_path.setMap(map);
+        prt_path.setMap(map);
+
+        mcc_iw.addListener('closeclick', () => {
+            mcc_path.setMap(null);
+        });
+        r4s_iw.addListener('closeclick', () => {
+            r4s_path.setMap(null);
+        });
+        enc_iw.addListener('closeclick', () => {
+            enc_path.setMap(null);
+        });
+        prt_iw.addListener('closeclick', () => {
+            prt_path.setMap(null);
+        });
+
+        mcc_iw.open(map);
+        r4s_iw.open(map);
+        enc_iw.open(map);
+        prt_iw.open(map);
         vst_iw.open(map, vst_mrkr);
+    }
+
+    function printCoords(event) {
+        infoWindow.setContent('<div><br><br>' + event.latLng.toString() + '<br>'
+                              + map.getZoom() + '<br>'
+                              + map.getCenter().toString() + '<br></div>');
+        infoWindow.setPosition(event.latLng);
+        infoWindow.open(map);
     }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn1i2ywrnqSIH8fL4eQ7EyuMAAttzwquQ&libraries=places&callback=initMap"
