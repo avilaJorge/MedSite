@@ -21,11 +21,11 @@
         prt: {lat: 32.89327, lng: -117.17038},
         vst: {lat: 32.6509861, lng: -116.9610962},
         cnt: {lat: 32.97415548947729, lng: -117.16902758165508},
-        mcc_off: {lat: 32.84767086161027,  lng: -117.42910770605471},
-        r4s_off: {lat:  33.14023197384485, lng: -116.97454837988283},
-        enc_off: {lat: 33.13616123329785,  lng: -117.32199100683596},
-        prt_off: {lat: 32.91686724597122,  lng: -116.89352420996096},
-        vst_off: {lat: 32.70333836830159,  lng: -116.9635620517578},
+        mcc_off: {lat: 32.85558239499693,  lng: -117.66608262726083},
+        r4s_off: {lat: 33.14023197384485,  lng: -116.97454837988283},
+        enc_off: {lat: 33.10441398993866,  lng: -117.65097642608896},
+        prt_off: {lat: 32.91581817560608,  lng: -116.66296984239727},
+        vst_off: {lat: 32.67453627300406,  lng: -116.72064806505352}
     };
     let place_ids = {
         mcc: 'ChIJRc0FMNgG3IARvf0D6nIGjZQ',
@@ -123,6 +123,7 @@
         });
         let vst_iw = new google.maps.InfoWindow({
             content: gen_html(loc_nm.vst, loc_addr.vst, imgs.vst, url_nm.vst, place_ids.vst),
+            position: coords.vst_off
         });
 
         let mcc_mrkr = new google.maps.Marker({
@@ -184,10 +185,18 @@
             strokeOpacity: 1.0,
             strokeWeight: 2
         });
+        let vst_path = new google.maps.Polyline({
+            path: [coords.vst, coords.vst_off],
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
         mcc_path.setMap(map);
         r4s_path.setMap(map);
         enc_path.setMap(map);
         prt_path.setMap(map);
+        vst_path.setMap(map);
 
         mcc_iw.addListener('closeclick', () => {
             mcc_path.setMap(null);
@@ -201,12 +210,15 @@
         prt_iw.addListener('closeclick', () => {
             prt_path.setMap(null);
         });
+        vst_iw.addListener('closeclick', () => {
+            vst_path.setMap(null);
+        });
 
         mcc_iw.open(map);
         r4s_iw.open(map);
         enc_iw.open(map);
         prt_iw.open(map);
-        vst_iw.open(map, vst_mrkr);
+        vst_iw.open(map);
     }
 
     function printCoords(event) {
