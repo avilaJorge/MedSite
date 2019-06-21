@@ -1,0 +1,99 @@
+<!-- Hero Section -->
+<section class="jumbotron no-padding no-margin hero-video" id="HeroShotTop">
+    <style>
+        #vid-container {
+            position: relative;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+    </style>
+    <div id="herovid-button">
+        <button type='button' aria-label='Pause or Play Video'><i class="fa fa-play fa-3" aria-hidden="true"></i>
+            / <i class="fa fa-pause fa-3" aria-hidden="true"></i></button>
+    </div>
+    <div class="container-fluid no-padding" id="vid-container">
+        <div class="row no-margin no-padding">
+            <video poster="https://editmedschool.ucsd.edu/playground/radiation-medicine/Documents/Front_Page_Montage_Video_Test_Moment.jpg"
+                   id="herovid"
+                   class="fadeIn"
+                   preload="auto"
+                   playsinline
+                   autoplay
+                   muted
+                   loop>
+            </video>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script>
+    document.getElementById('herovid').innerHTML = '<source src="https://editmedschool.ucsd.edu/playground/radiation-medicine/Documents/Front_Page_Montage_Video_Test.mp4" type="video/mp4">';
+    $(window).resize(function() {
+        if (window.innerWidth < 768) {
+            $("#HeroShotTop").css({
+                "background-image" : "url(https://editmedschool.ucsd.edu/playground/radiation-medicine/Documents/Front_Page_Montage_Video_Test_Moment.jpg)",
+                "background-repeat" : "no-repeat",
+                "background-size" : "cover",
+                "background-position" : "center center"
+            });
+        } else {
+            document.getElementById('herovid').innerHTML = '<source src="https://editmedschool.ucsd.edu/playground/radiation-medicine/Documents/Front_Page_Montage_Video_Test.mp4" type="video/mp4">';
+        }
+    });
+    function vidRun() {
+        var vid = document.getElementById("herovid");
+        var pauseButton = document.querySelector("#herovid-button button");
+
+        if (window.innerWidth < 768) {
+            $('#herovid-button').hide();
+            $('#herovid').hide();
+        } else {
+            $('#herovid-button').show();
+            $('#herovid').show();
+        }
+
+        $(window).resize(function() {
+            if (window.innerWidth < 768) {
+                $('#herovid-button').hide();
+                $('#herovid').hide();
+            } else {
+                $('#herovid-button').show();
+                $('#herovid').show();
+            }
+        });
+
+        if (window.matchMedia('(prefers-reduced-motion)').matches) {
+            vid.removeAttribute("autoplay");
+            vid.pause();
+            pauseButton.innerHTML = "Paused"; /* Paused */
+        }
+
+        function vidFade() {
+            vid.classList.add("stopfade");
+        }
+
+        vid.addEventListener('ended', function() {
+            // only functional if "loop" is removed
+            vid.pause();
+            // to capture IE10
+            vidFade();
+        });
+
+        pauseButton.addEventListener("click", function() {
+            vid.classList.toggle("stopfade");
+            if (vid.paused) {
+                vid.play();
+                $(pauseButton).html('<i class="fa fa-pause fa-5" aria-hidden="true"></i>');
+            } else {
+                vid.pause();
+                $(pauseButton).html('<i class="fa fa-play fa-5" aria-hidden="true"></i>');
+
+            }
+        })
+
+    }
+    $(document).ready(vidRun());
+</script>

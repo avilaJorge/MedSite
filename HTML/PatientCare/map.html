@@ -1,0 +1,96 @@
+<!-- Hero Section -->
+<section class="jumbotron no-padding no-margin">
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+        #map {
+            height: 400px;
+        }
+    </style>
+    <div id="map"></div>
+</section>
+<script>
+    let map;
+    let marker;
+    let mccLatLng = {lat: 32.87830305, lng: -117.22275460704526};
+    let place_ids = {
+        mcc: 'ChIJRc0FMNgG3IARvf0D6nIGjZQ',
+        r4s: 'ChIJZfHph-n324ARRIzL9yAa1bs',
+        enc: 'ChIJ9yKhv4UL3IARHm-f0GtLWAI',
+        prt: 'ChIJ7ffd_Kb424AR5yoF5f55KR4',
+        vst: 'ChIJWWbbUBNF2YARKyQMmA9IMJw'
+    };
+    let loc_nm = {
+        mcc: 'Moores Cancer Center – La Jolla',
+        r4s: 'UCSD Center for Neuromodulation (4S Ranch)',
+        enc: 'UC San Diego Health – Encinitas',
+        prt: 'California Protons Cancer Therapy Center',
+        vst: 'UC San Diego Health – Chula Vista'
+    };
+    let imgs = {
+        mcc: 'https://editmedschool.ucsd.edu/playground/radiation-medicine/patient-care/PublishingImages/MCC.jpg',
+        r4s: 'https://editmedschool.ucsd.edu/playground/radiation-medicine/patient-care/PublishingImages/4s_ranch.jpg',
+        enc: 'https://editmedschool.ucsd.edu/playground/radiation-medicine/patient-care/PublishingImages/Encinitas.jpg',
+        prt: 'https://editmedschool.ucsd.edu/playground/radiation-medicine/patient-care/PublishingImages/Proton%20Outside.png',
+        vst: 'https://editmedschool.ucsd.edu/playground/radiation-medicine/patient-care/PublishingImages/Chula_Vista.jpg'
+    };
+    function gen_html (name, addr, pic_loc) {
+        return {
+            mcc: '<div><strong>' + name + '</strong><br>'
+                + addr + '<br>' +
+                '<img src=' + pic_loc + '/>' +
+                '</div>'
+        };
+    }
+
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: mccLatLng,
+            zoom: 15
+        });
+
+        let req = {
+            placeId: place_ids.mcc,
+            fields: ['name', 'formatted_address', 'place_id', 'geometry', 'photo']
+        };
+
+        let mcc_iw = new google.maps.InfoWindow();
+        let r4s_iw = new google.maps.InfoWindow();
+        let enc_iw = new google.maps.InfoWindow();
+        let pet_iw = new google.maps.InfoWindow();
+        let vst_iw = new google.maps.InfoWindow();
+
+        let places_serv = new google.maps.places.PlacesService(map);
+
+        places_serv.getDetails(req, function(place, status) {
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+                marker = new google.maps.Marker({
+                    map: map,
+                    draggable: true,
+                    animation: google.maps.Animation.DROP,
+                    position: place.geometry.location
+                });
+                google.maps.event.addListener(marker, 'click', function() {
+                    infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+                        place.formatted_address + '<br/><img src=' + place.photos[0].getUrl({
+                            maxWidth: 100,
+                            maxHeight: 100
+                        }) + '/>' + '</div>');
+                    infowindow.open(map, this);
+                    toggleBounce();
+                });
+            }
+        });
+
+    }
+    function toggleBounce() {
+        if (marker.getAnimation() !== null) {
+            marker.setAnimation(null);
+        } else {
+            marker.setAnimation(google.maps.Animation.BOUNCE);
+        }
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn1i2ywrnqSIH8fL4eQ7EyuMAAttzwquQ&libraries=places&callback=initMap"
+        async defer></script>
+
