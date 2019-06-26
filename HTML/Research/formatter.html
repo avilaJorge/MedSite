@@ -1,0 +1,30 @@
+<script>
+    $('#leftNavPlaceholder').parent().css({'padding':'0'});
+    $('#leftNavPlaceholder').next().css({'width': '100%','padding':'0'});
+    $('#leftNavPlaceholder').remove();
+    $('#breadCrumbColumn').parent().remove();
+    $('#breadcrumb').remove();
+    $('#leftNavID').remove();
+    $('#ctl00_PlaceHolderMain_ctl01_label').prev().remove();
+    $('.container').css({'width': '100%','padding':'0'});
+    $('.jumbotron').css({'border-radius':'0'});
+</script>
+<style>
+    .megaNewsHeading {
+        font-style: "TradeGothicCon";
+        font-size: 40px;
+        line-height: 1em;
+        font-weight: bold;
+    }
+    .megaNewsItem {
+        font-size: 20px;
+        margin-top: 1rem;
+    }
+    .megaNewsViewAll {
+        margin-top: 1rem;
+        font-size: 16px;
+    }
+    .megaNewsItemDate {
+        display: none;
+    }
+</style>

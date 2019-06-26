@@ -14,10 +14,9 @@
     </div>
     <div class="container-fluid no-padding" id="vid-container">
         <div class="row no-margin no-padding">
-            <video poster="https://editmedschool.ucsd.edu/playground/radiation-medicine/Documents/Front_Page_Montage_Video_Test_Moment.jpg"
+            <video poster="https://editmedschool.ucsd.edu/playground/radiation-medicine/Assets/Front_Page_Montage_Video_Test_Moment.jpg"
                    id="herovid"
                    class="fadeIn"
-                   preload="auto"
                    playsinline
                    autoplay
                    muted
@@ -34,13 +33,13 @@
     $(window).resize(function() {
         if (window.innerWidth < 768) {
             $("#HeroShotTop").css({
-                "background-image" : "url(https://editmedschool.ucsd.edu/playground/radiation-medicine/Documents/Front_Page_Montage_Video_Test_Moment.jpg)",
+                "background-image" : "url(https://editmedschool.ucsd.edu/playground/radiation-medicine/Assets/Front_Page_Montage_Video_Test_Moment.jpg)",
                 "background-repeat" : "no-repeat",
                 "background-size" : "cover",
                 "background-position" : "center center"
             });
         } else {
-            document.getElementById('herovid').innerHTML = '<source src="https://editmedschool.ucsd.edu/playground/radiation-medicine/Documents/Front_Page_Montage_Video_Test.mp4" type="video/mp4">';
+            document.getElementById('herovid').innerHTML = '<source src="https://editmedschool.ucsd.edu/playground/radiation-medicine/Assets/Front_Page_Montage_Video_Test?Web=1" type="video/mp4">';
         }
     });
     function vidRun() {
