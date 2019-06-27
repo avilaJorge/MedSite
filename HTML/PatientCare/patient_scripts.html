@@ -1,48 +1,11 @@
 <script>
-	document.getElementById('breadcrumb').remove();
-	document.getElementById('leftNavPlaceholder').remove();
-	document.getElementById('ctl00_PlaceHolderMain_ctl01__ControlWrapper_RichHtmlField').style.width = '100%';
-	var elem2 = document.getElementById('mainBody').getElementsByClassName('col-lg-9 col-md-9 col-sm-12 col-xs-12')[0];
-	var elem = document.getElementById('mainBody').getElementsByClassName('container')[0];
-	elem.style.width = '100%';
-	elem.style.padding = '0';
-	elem2.style.width = '100%';
-	elem2.style.padding = '0';
-	document.getElementById('breadCrumbColumn').parentElement.remove();
-	document.getElementById('ctl00_PlaceHolderMain_ctl01_label').parentElement.getElementsByTagName('h1')[0].remove();
-	document.getElementById('mainBody').getElementsByTagName('section')[0].getElementsByClassName('row')[0].style.padding = '0';
-</script>
-<style>
-	.container .jumbotron {
-		border-radius: 0;
-	}
-</style>
-
-<script>
-	document.getElementById('breadcrumb').style.display = 'none';
-	document.getElementById('leftNavID').style.display = 'none';
-</script>
-	document.getElementById('HeroShotTop').style.borderRadius = '0';
-	
-<script>
-if (inDesignMode !== "1") {
-    $(function () {
-        if (document.querySelector('.content-page-hero')) {
-            var urlAttr = $(".content-page-hero .container img").attr("src");
-            $(".content-page-hero .container img").remove();
-            $(".content-page-hero").css({
-                "background-image": "linear-gradient(rgba(255, 255, 255, 0.1),rgba(0, 0, 0, 0.7)), url(" + urlAttr + ")",
-                "background-size": "cover",
-                "background-position": "center center",
-                "display": "block"
-            });
-        }
-    });
-} else {
-    $(".content-page-hero").css('display', 'block');
-}
-</script>
-
-<script>
-	document.getElementsByClassName('content-page-hero')[0].remove();
+	$('#leftNavPlaceholder').parent().css({'padding':'0'});
+	$('#leftNavPlaceholder').next().css({'width': '100%','padding':'0'});
+	$('#leftNavPlaceholder').remove();
+	$('#breadCrumbColumn').parent().remove();
+	$('#breadcrumb').remove();
+	$('#leftNavID').remove();
+	$('#ctl00_PlaceHolderMain_ctl01_label').prev().remove();
+	$('.container').css({'width': '100%','padding':'0'});
+	$('.jumbotron').css({'border-radius':'0'});
 </script>
