@@ -9,3 +9,22 @@
 	$('.container').css({'width': '100%','padding':'0'});
 	$('.jumbotron').css({'border-radius':'0'});
 </script>
+<script>
+    $('#leftNavPlaceholder').remove();
+    $('#breadCrumbColumn').parent().remove();
+    $('#breadcrumb').remove();
+    $('#leftNavID').remove();
+    $('#ctl00_PlaceHolderMain_ctl01_label').prev().remove();
+</script>
+<script>
+    $(document).ready(function(){
+        setTimeout(function(){
+            $('.content-page-hero').css({
+                'display':'none'
+            });
+            $('#HeroShotTop').css({
+                'background-position': 'center'
+            });
+        },1)
+    })
+</script>
