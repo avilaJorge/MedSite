@@ -21,7 +21,7 @@
                     });
                 }
             );
-            $(window).on( "load", function() { 
+            $(window).on( "load", function() {
                 $(".hero-rotator-webpart").css("display", "block");
             })
         </script>
@@ -134,7 +134,7 @@
             .rotator-flex-container {
                 display: flex;
                 justify-content: center;
-                align-items: center; 
+                align-items: center;
                 min-height: 290px;
                 text-align: center;
                 margin: auto;
@@ -151,7 +151,7 @@
                 position: absolute;
                 bottom: 0;
                 right: 3%;
-                list-style-image: none !important; 
+                list-style-image: none !important;
             }
             .slick-dots li:before {
                 content: none !important;

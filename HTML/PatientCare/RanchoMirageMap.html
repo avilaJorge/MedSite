@@ -1,0 +1,42 @@
+<!-- Hero Section -->
+<section class="jumbotron no-padding no-margin">
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+        #map {
+            height: 450px;
+        }
+    </style>
+    <div id="map"></div>
+</section>
+<script>
+    let map;
+    let infoWindow;
+    let zoom = 16;
+
+    let coords = {lat: 33.7893582, lng: -116.405406};
+    let content = '<div><strong>Rancho Mirage</strong><br/>35900 Bob Hope Drive<br/>Suite 275<br/>Rancho Mirage, CA 92270<br/>' +
+        `<a href='https://www.google.com/maps/search/?api=1&query=35900+Bob+Hope+Dr+#275' target='_blank'>Open in Google Maps</a></div>`;
+
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: coords,
+            zoom: zoom
+        });
+        infoWindow = new google.maps.InfoWindow;
+
+        let loc_iw = new google.maps.InfoWindow({
+            content: content
+        });
+        let mrkr = new google.maps.Marker({
+            map: map,
+            draggable: false,
+            animation: google.maps.Animation.DROP,
+            position: coords
+        });
+        loc_iw.open(map, mrkr);
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn1i2ywrnqSIH8fL4eQ7EyuMAAttzwquQ&libraries=places&callback=initMap"
+        async defer></script>
+

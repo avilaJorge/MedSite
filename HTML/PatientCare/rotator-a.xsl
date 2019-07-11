@@ -2,7 +2,7 @@
     <xsl:output method="html" indent="yes" />
     <xsl:template match="/" xmlns:ddwrt="http://schemas.microsoft.com/WebParts/v2/DataView/runtime" ddwrt:ghost=""
                   xmlns:ddwrt2="urn:frontpage:internal">
-        <div class="container no-padding" style="width: 100%">
+        <div class="container no-padding">
             <div class="row no-padding">
                 <div class="rotator-web-part no-padding">
                     <xsl:apply-templates select="/dsQueryResponse/Rows/Row" />

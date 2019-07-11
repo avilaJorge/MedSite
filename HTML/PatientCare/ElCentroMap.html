@@ -1,0 +1,61 @@
+<!-- Hero Section -->
+<section class="jumbotron no-padding no-margin">
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+        #map {
+            height: 450px;
+        }
+    </style>
+    <div id="map"></div>
+</section>
+<script>
+    let map;
+    let infoWindow;
+    let zoom = 16;
+
+    let coords = {lat: 32.7804848, lng: -115.5788568};
+    let place_id = 'ChIJl4Oe6Ehh14ARmj5-AxrWup0';
+    let url_nm = 'Imperial+Valley+Cancer+Center';
+    let loc_nm = 'El Centro<br/>Imperial Valley Cancer Center';
+    let loc_addr = '1410 S La Brucherie Rd <br/>Suite B<br/>El Centro, CA 92243';
+    let imgs = 'https://www.dropbox.com/s/ooriv85z3jcdb56/El_Centro.jpg?raw=1';
+
+    function gen_html(name, addr, img, url_nm, place_id) {
+        return '<div><strong>' + name + '</strong><br>'
+            + addr + '<br>' +
+            '<img src=' + img + " style='height:90px;width:160px;'/><br>" +
+            `<a href='https://www.google.com/maps/search/?api=1&query=${url_nm}&query_place_id=${place_id}' target='_blank'>Open in Google Maps</a>` +
+            '</div>';
+    }
+
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: coords,
+            zoom: zoom
+        });
+        infoWindow = new google.maps.InfoWindow;
+
+        let elc_iw = new google.maps.InfoWindow({
+            content: gen_html(loc_nm, loc_addr, imgs, url_nm, place_id),
+        });
+        let mrkr = new google.maps.Marker({
+            map: map,
+            draggable: false,
+            animation: google.maps.Animation.DROP,
+            position: coords
+        });
+        elc_iw.open(map, mrkr);
+    }
+
+    function printCoords(event) {
+        infoWindow.setContent('<div><br><br>' + event.latLng.toString() + '<br>'
+            + map.getZoom() + '<br>'
+            + map.getCenter().toString() + '<br></div>');
+        infoWindow.setPosition(event.latLng);
+        infoWindow.open(map);
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn1i2ywrnqSIH8fL4eQ7EyuMAAttzwquQ&libraries=places&callback=initMap"
+        async defer></script>
+
