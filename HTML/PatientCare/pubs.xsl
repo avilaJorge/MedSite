@@ -16,10 +16,19 @@
     </div>
 </xsl:template>
 <xsl:template match="/dsQueryResponse/Rows/Row">
-        <li id="PubItem">
-            <a href="{@Link}" style="color: inherit; font-family: inherit; font-size: inherit; font-weight: inherit;">
-                <xsl:value-of select="@Title" />
-            </a>
-        </li>
+    <xsl:choose>
+       <xsl:when test="string-length(@Link) &gt; 0">
+           <li id="PubItem">
+               <a href="{@Link}" style="color: inherit; font-family: inherit; font-size: inherit; font-weight: inherit;">
+                   <xsl:value-of select="@Title" />
+               </a>
+           </li>
+       </xsl:when>
+        <xsl:otherwise>
+            <li id="PubItem">
+               <u><xsl:value-of select="@Title"/></u>
+            </li>
+        </xsl:otherwise>
+    </xsl:choose>
 </xsl:template>
 </xsl:stylesheet>
