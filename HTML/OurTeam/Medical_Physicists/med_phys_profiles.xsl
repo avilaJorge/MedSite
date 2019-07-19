@@ -28,11 +28,12 @@
                                             <div class="hover-box-content hover-color">
                                                 <div class="hover-intro-wrapper">
                                                     <div class="hover-intro">
-                                                        <h3 class="hover-box-title"><xsl:value-of select="@First_x0020_Name"/>&#160;<xsl:value-of select="@Last_x0020_Name"/>,&#160;<xsl:value-of select="@Title"/></h3>
+                                                        <h3 class="hover-box-title"><xsl:value-of select="@FirstName"/>&#160;<xsl:value-of select="@LastName"/>
+                                                            <xsl:if test="string-length(@Title) &gt; 0">,&#160;<xsl:value-of select="@Title"/></xsl:if></h3>
                                                     </div>
                                                 </div>
                                                 <div class="hover-expanded-text">
-                                                    <h3 class="hover-box-title"><xsl:value-of select="@First_x0020_Name"/>&#160;<xsl:value-of select="@Last_x0020_Name"/>,&#160;<xsl:value-of select="@Title"/></h3>
+                                                    <h3 class="hover-box-title"><xsl:value-of select="@FirstName"/>&#160;<xsl:value-of select="@LastName"/>,&#160;<xsl:value-of select="@Title"/></h3>
                                                     <a class="continue-link" href="{@ProfileLink}"></a>
                                                     <br />
                                                 </div>
