@@ -6,30 +6,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a089365c-5644-4102-ab8c-c80991cb1273" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Labs/Mell_Lab/People.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurTeam/Faculty/Khanna-Monica.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurTeam/Faculty/Lingareddy-Visudha.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurTeam/Medical_Physicists/med_phys_profiles-trigger.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OurTeam/Medical_Physicists/med_phys_profiles.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PatientCare/How_We_Treat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PatientCare/where_we_treat_old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/default_v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Mell_Lab/profiles-trigger.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Mell_Lab/profiles.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MD_Residency/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OurTeam/our_team_v3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PatientCare/pub.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Physics_Residency/Program_Statistics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Research/default_v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Research/programs_v3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Research/research-boxes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Research/research_programs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XSL Files/programs-trigger.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XSL Files/programs-v3-trigger.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XSL Files/programs-v3.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XSL Files/programs.xsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Mell_Lab.html" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Mell_Lab/Mell_Lab.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurTeam/Faculty/Bruggeman_Andrew.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/Faculty/Bruggeman_Andrew.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurTeam/Faculty/Einck-John.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/Faculty/Einck-John.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurTeam/Faculty/Grover-Ryan.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/Faculty/Grover-Ryan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurTeam/Faculty/Hattangadi-Gluth-Jona.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/Faculty/Hattangadi-Gluth-Jona.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurTeam/Faculty/Hoopes-David.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/Faculty/Hoopes-David.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurTeam/Faculty/MacEwan-Iain.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/Faculty/MacEwan-Iain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurTeam/Faculty/Mansy-Gina.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/Faculty/Mansy-Gina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurTeam/Faculty/Mayadev-Jyoti.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/Faculty/Mayadev-Jyoti.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurTeam/Faculty/Mell-Loren.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/Faculty/Mell-Loren.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurTeam/Faculty/Murphy-James.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/Faculty/Murphy-James.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurTeam/Faculty/Rose-Brent.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/Faculty/Rose-Brent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurTeam/Faculty/arno-mundt.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/Faculty/arno-mundt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OurTeam/Radiation_Oncologists/profiles.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/Radiation_Oncologists/profiles.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PatientCare/what_we_treat.html" beforeDir="false" afterPath="$PROJECT_DIR$/PatientCare/what_we_treat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scratch" beforeDir="false" afterPath="$PROJECT_DIR$/scratch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Education/EducationLanding.html" beforeDir="false" afterPath="$PROJECT_DIR$/Education/EducationLanding.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Education/old_education.html" beforeDir="false" afterPath="$PROJECT_DIR$/Education/old_education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/pub-trigger.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/pub-trigger.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurTeam/our_team_v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurTeam/our_team_v2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Research/news.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/Research/news.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Research/research_carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/Research/research_carousel.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,129 +41,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PatientCare/what_we_treat.html">
+        <entry file="file://$PROJECT_DIR$/XSL Files/programs.xsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="13" selection-end-line="342" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-                <element signature="e#13894#13899#0" expanded="true" />
-                <element signature="e#14182#14187#0" expanded="true" />
-                <element signature="e#23129#23134#0" expanded="true" />
-                <element signature="e#23424#23429#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1062">
+              <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PatientCare/How_We_Treat.html">
+        <entry file="file://$PROJECT_DIR$/XSL Files/programs-trigger.xsl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XSL Files/programs-v2.xsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+            <state relative-caret-position="344">
+              <caret line="34" column="25" selection-end-line="54" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PatientCare/where_we_treat_old.html">
+        <entry file="file://$PROJECT_DIR$/XSL Files/programs-v3.xsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#section#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#section#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#section#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#section#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#section#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-                <element signature="e#4423#4428#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#7;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#8;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#section#9;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#9;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#section#10;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#10;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#section#11;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#11;n#!!top" expanded="true" />
-                <element signature="e#7590#7595#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurTeam/Radiation_Oncologists/profiles.xsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-              <folding>
-                <element signature="e#1231#1235#0" expanded="true" />
-                <element signature="e#1290#1294#0" expanded="true" />
-                <element signature="e#1311#1315#0" expanded="true" />
-                <element signature="e#1333#1337#0" expanded="true" />
-                <element signature="e#1361#1365#0" expanded="true" />
-                <element signature="e#1399#1403#0" expanded="true" />
-                <element signature="e#1428#1432#0" expanded="true" />
-                <element signature="e#1472#1476#0" expanded="true" />
-                <element signature="e#1508#1512#0" expanded="true" />
-                <element signature="e#1548#1552#0" expanded="true" />
-                <element signature="e#7021#7025#0" expanded="true" />
-                <element signature="e#7029#7033#0" expanded="true" />
-                <element signature="e#7058#7062#0" expanded="true" />
-                <element signature="e#7066#7070#0" expanded="true" />
-                <element signature="e#7091#7095#0" expanded="true" />
-                <element signature="e#7099#7103#0" expanded="true" />
-                <element signature="e#7120#7124#0" expanded="true" />
-                <element signature="e#7124#7128#0" expanded="true" />
-                <element signature="e#7465#7469#0" expanded="true" />
-                <element signature="e#7149#7153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OurTeam/Medical_Physicists/med_phys_profiles-trigger.xsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="972">
+              <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OurTeam/Medical_Physicists/med_phys_profiles.xsl">
+        <entry file="file://$PROJECT_DIR$/Research/programs_v3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="151" selection-start-line="31" selection-start-column="151" selection-end-line="31" selection-end-column="151" />
+            <state relative-caret-position="776">
+              <caret line="316" column="21" selection-start-line="316" selection-start-column="21" selection-end-line="316" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rotator.xsl">
+        <entry file="file://$PROJECT_DIR$/XSL Files/programs-v3-trigger.xsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="268" column="71" selection-start-line="268" selection-start-column="71" selection-end-line="268" selection-end-column="71" />
+            <state relative-caret-position="108">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scratch">
+        <entry file="file://$PROJECT_DIR$/XSL Files/programs-v2-trigger.xsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1278">
-              <caret line="71" column="84" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="84" />
+            <state relative-caret-position="108">
+              <caret line="6" column="16" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XSL Files/Research-Faculty-News.xsl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XSL Files/labs.xsl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Labs/Mell_Lab/profiles-trigger.xsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -187,6 +135,7 @@
       <find>height: 100%</find>
       <find>style=&quot;text-align: center;&quot;</find>
       <find>&quot;</find>
+      <find>OPTIMUS</find>
     </findStrings>
     <replaceStrings>
       <replace>height: 250px</replace>
@@ -199,29 +148,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PatientCare/RanchoMirageAddr.html" />
-        <option value="$PROJECT_DIR$/PatientCare/RanchoMirage.html" />
-        <option value="$PROJECT_DIR$/PatientCare/map.html" />
-        <option value="$PROJECT_DIR$/PatientCare/RanchoMirageMap.html" />
-        <option value="$PROJECT_DIR$/PatientCare/CalPtrnCntrMap.html" />
-        <option value="$PROJECT_DIR$/PatientCare/CalPrtnCntrAddr.html" />
-        <option value="$PROJECT_DIR$/PatientCare/La_Jolla.html" />
-        <option value="$PROJECT_DIR$/PatientCare/CalProtCntr.html" />
-        <option value="$PROJECT_DIR$/PatientCare/pubs.xsl" />
-        <option value="$PROJECT_DIR$/PatientCare/ped_cancer.html" />
-        <option value="$PROJECT_DIR$/PatientCare/Genitourinary_Tumors.html" />
-        <option value="$PROJECT_DIR$/PatientCare/Gastro.html" />
-        <option value="$PROJECT_DIR$/PatientCare/Gynecologic_Cancers.html" />
-        <option value="$PROJECT_DIR$/PatientCare/HeadNeck.html" />
-        <option value="$PROJECT_DIR$/PatientCare/heme.html" />
-        <option value="$PROJECT_DIR$/PatientCare/benign.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.html" />
-        <option value="$PROJECT_DIR$/OurTeam/Radiation_Oncologists/profiles-trigger.xsl" />
-        <option value="$PROJECT_DIR$/OurTeam/faculty_page.html" />
         <option value="$PROJECT_DIR$/PatientCare/news.xsl" />
         <option value="$PROJECT_DIR$/OurTeam/raw_printer.xsl" />
         <option value="$PROJECT_DIR$/OurTeam/Faculty/C2.html" />
-        <option value="$PROJECT_DIR$/OurTeam/our_team_v2.html" />
         <option value="$PROJECT_DIR$/OurTeam/our_team_carousel.html" />
         <option value="$PROJECT_DIR$/chairs-welcome.html" />
         <option value="$PROJECT_DIR$/timeline.html" />
@@ -250,6 +179,26 @@
         <option value="$PROJECT_DIR$/OurTeam/Radiation_Oncologists/profiles.xsl" />
         <option value="$PROJECT_DIR$/OurTeam/Medical_Physicists/med_phys_profiles-trigger.xsl" />
         <option value="$PROJECT_DIR$/OurTeam/Medical_Physicists/med_phys_profiles.xsl" />
+        <option value="$PROJECT_DIR$/OurTeam/our_team_v2.html" />
+        <option value="$PROJECT_DIR$/OurTeam/our_team_v3.html" />
+        <option value="$PROJECT_DIR$/Research/research_programs.html" />
+        <option value="$PROJECT_DIR$/Research/research_carousel.html" />
+        <option value="$PROJECT_DIR$/Labs/pub-trigger.xsl" />
+        <option value="$PROJECT_DIR$/Research/default_v2.html" />
+        <option value="$PROJECT_DIR$/Education/EducationLanding.html" />
+        <option value="$PROJECT_DIR$/Education/default_v2.html" />
+        <option value="$PROJECT_DIR$/Education/old_education.html" />
+        <option value="$PROJECT_DIR$/MD_Residency/default.html" />
+        <option value="$PROJECT_DIR$/Physics_Residency/Program_Statistics.html" />
+        <option value="$PROJECT_DIR$/Research/news.xsl" />
+        <option value="$PROJECT_DIR$/Labs/Mell_Lab/profiles-trigger.xsl" />
+        <option value="$PROJECT_DIR$/Labs/Mell_Lab/profiles.xsl" />
+        <option value="$PROJECT_DIR$/Research/research-boxes.html" />
+        <option value="$PROJECT_DIR$/XSL Files/programs-v2-trigger.xsl" />
+        <option value="$PROJECT_DIR$/XSL Files/programs-v2.xsl" />
+        <option value="$PROJECT_DIR$/XSL Files/programs-v3-trigger.xsl" />
+        <option value="$PROJECT_DIR$/XSL Files/programs-v3.xsl" />
+        <option value="$PROJECT_DIR$/Research/programs_v3.html" />
       </list>
     </option>
   </component>
@@ -280,19 +229,23 @@
             <path>
               <item name="HTML" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="OurTeam" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTML" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="OurTeam" type="462c0819:PsiDirectoryNode" />
-              <item name="Medical_Physicists" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="Mell_Lab" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTML" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="OurTeam" type="462c0819:PsiDirectoryNode" />
-              <item name="Radiation_Oncologists" type="462c0819:PsiDirectoryNode" />
+              <item name="Research" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="XSL Files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,16 +264,18 @@
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jorge\Documents\MedSite\HTML\XSL Files" />
+      <recent name="C:\Users\Jorge\Documents\MedSite\HTML\PatientCare" />
+      <recent name="C:\Users\Jorge\Documents\MedSite\HTML\Labs\Mell_Lab" />
+      <recent name="C:\Users\Jorge\Documents\MedSite\HTML\OurTeam\Medical_Physicists" />
+      <recent name="C:\Users\avila\Dropbox\Work\MooreCancerCenter\HTML" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jorge\Documents\MedSite\HTML\Labs\Mell_Lab" />
       <recent name="C:\Users\Jorge\Documents\MedSite\HTML\People" />
       <recent name="C:\Users\Jorge\Documents\MedSite\HTML\PatientCare" />
       <recent name="G:\Jorge\Dropbox\Work\MooreCancerCenter\HTML\PatientCare" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jorge\Documents\MedSite\HTML\OurTeam\Medical_Physicists" />
-      <recent name="C:\Users\Jorge\Documents\MedSite\HTML\PatientCare" />
-      <recent name="C:\Users\avila\Dropbox\Work\MooreCancerCenter\HTML" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -379,17 +334,24 @@
       <workItem from="1563228777285" duration="19614000" />
       <workItem from="1563267491318" duration="240000" />
       <workItem from="1563267799217" duration="15988000" />
-      <workItem from="1563392449432" duration="23919000" />
+      <workItem from="1563392449432" duration="23950000" />
+      <workItem from="1563786593435" duration="1175000" />
+      <workItem from="1563787922073" duration="4368000" />
+      <workItem from="1563847152474" duration="3652000" />
+      <workItem from="1563907377882" duration="12356000" />
+      <workItem from="1564082808372" duration="3658000" />
+      <workItem from="1564196468931" duration="1264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="436474000" />
+    <option name="totallyTimeSpent" value="462978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3833" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11702128" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11702128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -401,7 +363,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32969603" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -412,463 +374,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PatientCare/heme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2988">
-          <caret line="166" column="55" selection-start-line="166" selection-start-column="55" selection-end-line="166" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#h2#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#h2#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#h2#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/benign.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="20" selection-end-line="167" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/breast_cancer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2538">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-          <folding>
-            <element signature="n#style#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/rotator-b-trigger.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/rotator-a.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Faculty/Brown-Derek.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/news.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/faculty_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="87" column="71" selection-start-line="87" selection-start-column="71" selection-end-line="87" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/pub.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/rotator.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4374">
-          <caret line="243" column="49" selection-end-line="360" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Radiation_Oncologists/profiles-trigger.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/raw_printer.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Faculty/Yashar-Catheryn.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Faculty/Advani-Sunil.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="31" selection-end-line="61" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Radiation_Oncologists/profile_list.xsl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Radiation_Oncologists/profiles_bad.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="35" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Faculty/C2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="28" selection-end-line="48" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/our_team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/our_team_v2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1476">
-          <caret line="82" column="243" selection-end-line="95" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#section#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#section#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#section#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/our_team_carousel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Core Technologies.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chairs-welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="114" column="13" selection-end-line="117" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="e#348#353#0" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#br#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#br#1;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#5;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/timeline.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Mell_Lab/People.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="70" selection-end-line="283" selection-end-column="18" />
-          <folding>
-            <element signature="e#347#396#0" expanded="true" />
-            <element signature="e#422#449#0" expanded="true" />
-            <element signature="e#591#618#0" expanded="true" />
-            <element signature="e#958#1007#0" expanded="true" />
-            <element signature="e#1053#1080#0" expanded="true" />
-            <element signature="e#1124#1151#0" expanded="true" />
-            <element signature="e#1195#1222#0" expanded="true" />
-            <element signature="e#1262#1289#0" expanded="true" />
-            <element signature="e#1329#1356#0" expanded="true" />
-            <element signature="e#1627#1676#0" expanded="true" />
-            <element signature="e#1767#1794#0" expanded="true" />
-            <element signature="e#1838#1865#0" expanded="true" />
-            <element signature="e#1905#1932#0" expanded="true" />
-            <element signature="e#1970#1997#0" expanded="true" />
-            <element signature="e#2374#2423#0" expanded="true" />
-            <element signature="e#2512#2539#0" expanded="true" />
-            <element signature="e#2577#2604#0" expanded="true" />
-            <element signature="e#2641#2668#0" expanded="true" />
-            <element signature="e#2707#2734#0" expanded="true" />
-            <element signature="e#2971#3020#0" expanded="true" />
-            <element signature="e#3066#3093#0" expanded="true" />
-            <element signature="e#3137#3164#0" expanded="true" />
-            <element signature="e#3200#3227#0" expanded="true" />
-            <element signature="e#3264#3291#0" expanded="true" />
-            <element signature="e#3329#3356#0" expanded="true" />
-            <element signature="e#3615#3649#0" expanded="true" />
-            <element signature="e#3744#3771#0" expanded="true" />
-            <element signature="e#3805#3832#0" expanded="true" />
-            <element signature="e#3881#3908#0" expanded="true" />
-            <element signature="e#4067#4298#0" expanded="true" />
-            <element signature="e#4505#4539#0" expanded="true" />
-            <element signature="e#4631#4658#0" expanded="true" />
-            <element signature="e#4685#4712#0" expanded="true" />
-            <element signature="e#4762#4789#0" expanded="true" />
-            <element signature="e#4818#4845#0" expanded="true" />
-            <element signature="e#4865#4892#0" expanded="true" />
-            <element signature="e#5055#5089#0" expanded="true" />
-            <element signature="e#5232#5259#0" expanded="true" />
-            <element signature="e#5285#5312#0" expanded="true" />
-            <element signature="e#5339#5366#0" expanded="true" />
-            <element signature="e#5398#5425#0" expanded="true" />
-            <element signature="e#5611#5645#0" expanded="true" />
-            <element signature="e#5656#5683#0" expanded="true" />
-            <element signature="e#5703#5730#0" expanded="true" />
-            <element signature="e#5750#5777#0" expanded="true" />
-            <element signature="e#5805#5832#0" expanded="true" />
-            <element signature="e#5859#5886#0" expanded="true" />
-            <element signature="e#5907#5934#0" expanded="true" />
-            <element signature="e#5956#5983#0" expanded="true" />
-            <element signature="e#6337#6371#0" expanded="true" />
-            <element signature="e#6413#6440#0" expanded="true" />
-            <element signature="e#6460#6487#0" expanded="true" />
-            <element signature="e#6520#6547#0" expanded="true" />
-            <element signature="e#6579#6606#0" expanded="true" />
-            <element signature="e#6628#6655#0" expanded="true" />
-            <element signature="e#6862#6896#0" expanded="true" />
-            <element signature="e#6939#6966#0" expanded="true" />
-            <element signature="e#6986#7013#0" expanded="true" />
-            <element signature="e#7049#7076#0" expanded="true" />
-            <element signature="e#7106#7133#0" expanded="true" />
-            <element signature="e#7452#7486#0" expanded="true" />
-            <element signature="e#7550#7577#0" expanded="true" />
-            <element signature="e#7610#7637#0" expanded="true" />
-            <element signature="e#7667#7694#0" expanded="true" />
-            <element signature="e#7728#7755#0" expanded="true" />
-            <element signature="e#8168#8190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Labs/Mell_Lab/Mell_Lab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2952">
-          <caret line="164" column="124" selection-end-line="225" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Faculty/Bruggeman_Andrew.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="96" selection-end-line="38" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Faculty/Khanna-Monica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Faculty/Mansy-Gina.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="32" selection-end-line="42" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Faculty/MacEwan-Iain.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="56" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Faculty/arno-mundt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="57" column="229" selection-end-line="64" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Faculty/Mayadev-Jyoti.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-end-line="42" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Faculty/Hattangadi-Gluth-Jona.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Faculty/Lingareddy-Visudha.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="25" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OurTeam/Faculty/Mell-Loren.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -987,38 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/where_we_treat_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#section#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
-            <element signature="e#4423#4428#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#8;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#section#9;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#9;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#section#10;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#10;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#section#11;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#11;n#!!top" expanded="true" />
-            <element signature="e#7590#7595#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PatientCare/what_we_treat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1042,38 +515,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scratch">
+    <entry file="file://$PROJECT_DIR$/PatientCare/where_we_treat_old.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1278">
-          <caret line="71" column="84" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurTeam/Radiation_Oncologists/profiles.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="972">
+          <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
           <folding>
-            <element signature="e#1231#1235#0" expanded="true" />
-            <element signature="e#1290#1294#0" expanded="true" />
-            <element signature="e#1311#1315#0" expanded="true" />
-            <element signature="e#1333#1337#0" expanded="true" />
-            <element signature="e#1361#1365#0" expanded="true" />
-            <element signature="e#1399#1403#0" expanded="true" />
-            <element signature="e#1428#1432#0" expanded="true" />
-            <element signature="e#1472#1476#0" expanded="true" />
-            <element signature="e#1508#1512#0" expanded="true" />
-            <element signature="e#1548#1552#0" expanded="true" />
-            <element signature="e#7021#7025#0" expanded="true" />
-            <element signature="e#7029#7033#0" expanded="true" />
-            <element signature="e#7058#7062#0" expanded="true" />
-            <element signature="e#7066#7070#0" expanded="true" />
-            <element signature="e#7091#7095#0" expanded="true" />
-            <element signature="e#7099#7103#0" expanded="true" />
-            <element signature="e#7120#7124#0" expanded="true" />
-            <element signature="e#7124#7128#0" expanded="true" />
-            <element signature="e#7465#7469#0" expanded="true" />
-            <element signature="e#7149#7153#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#7;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#8;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#9;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#9;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#10;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#10;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#11;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#11;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1085,19 +552,342 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OurTeam/our_team_v3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="99" column="98" selection-end-line="124" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_default.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/research_carousel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurTeam/our_team_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="88" selection-start-line="50" selection-start-column="88" selection-end-line="50" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#section#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#section#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#section#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rotator.xsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
+        <state relative-caret-position="4824">
           <caret line="268" column="71" selection-start-line="268" selection-start-column="71" selection-end-line="268" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scratch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="71" column="84" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/news-trigger.xsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/pub.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="16" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/research_programs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5040">
+          <caret line="280" column="34" selection-end-line="286" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/pub-trigger.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Education/Physics_Residency.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Education/default_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2916">
+          <caret line="201" column="17" selection-start-line="201" selection-start-column="17" selection-end-line="201" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#section#4;n#!!top" expanded="true" />
+            <element signature="e#10484#10488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/research_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="24" selection-end-line="289" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurTeam/Radiation_Oncologists/profiles.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurTeam/Radiation_Oncologists/profile_list.xsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MD_Residency/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="17" selection-end-line="184" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/news.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PatientCare/pubs.xsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PatientCare/pub.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OurTeam/Medical_Physicists/med_phys_profiles.xsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="151" selection-start-line="31" selection-start-column="151" selection-end-line="31" selection-end-column="151" />
+        <state relative-caret-position="522">
+          <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Education/EducationLanding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#section#4;n#!!top" expanded="true" />
+            <element signature="e#10484#10488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Physics_Residency/Program_Statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Education/old_education.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XSL Files/med_phys_profiles.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XSL Files/programs_v2.xsl" />
+    <entry file="file://$PROJECT_DIR$/XSL Files/programs_v2-trigger.xsl" />
+    <entry file="file://$PROJECT_DIR$/Labs/Mell_Lab/profiles.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/default_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="140" column="60" selection-end-line="170" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/research-boxes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3348">
+          <caret line="186" column="21" selection-start-line="186" selection-start-column="21" selection-end-line="186" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XSL Files/programs.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XSL Files/programs-trigger.xsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XSL Files/labs.xsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Labs/Mell_Lab/profiles-trigger.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XSL Files/programs-v2-trigger.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="16" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XSL Files/Research-Faculty-News.xsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XSL Files/programs-v3-trigger.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XSL Files/programs-v2.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="34" column="25" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XSL Files/programs-v3.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/programs_v3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="316" column="21" selection-start-line="316" selection-start-column="21" selection-end-line="316" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
