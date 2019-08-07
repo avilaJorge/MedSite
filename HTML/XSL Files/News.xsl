@@ -4,9 +4,9 @@
                   xmlns:ddwrt2="urn:frontpage:internal">
         <div class="" style="color: inherit">
             <div class="row" style="padding-bottom: 0">
-                <h2 class="text-center" id="PubHeading">
+                <div class="text-center" id="PubHeading">
                     News
-                </h2>
+                </div>
             </div>
             <div class="row" style="padding-top: 0; padding-bottom: 0">
                 <ul id="pubs-web-app" style="margin-bottom: 0">
