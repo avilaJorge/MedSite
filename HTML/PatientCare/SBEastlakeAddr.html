@@ -1,9 +1,102 @@
-<section class="jumbotron jumbotron-white" style="padding-bottom: 0">
+<section class="jumbotron jumbotron-white" style="padding-bottom: 0; padding-top: 0">
+    <style>
+        .addr-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 475px;
+        }
+
+    </style>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <p>959 Lane Avenue<br/>San Diego, CA 91914<br/><a href="tel:6195027730">(619) 502-7730</a></p>
-                <p style="padding-bottom: 0">Our South Bay facility offers patients in South San Diego access to UC San Diego Radiation Oncologists and state-of-the-art radiation therapy (RT) equipment closer to their home.</p>
+            <div class="col-md-6 text-center">
+                <div class="addr-container">
+                    <h3>959 Lane Avenue<br/>San Diego, CA 91914<br/><br/><a href="tel:6195027730">(619) 502-7730</a></h3>
+                    <p style="padding-bottom: 0"><br/>Our South Bay facility offers patients in South San Diego access to UC San Diego Radiation Oncologists and state-of-the-art radiation therapy (RT) equipment closer to their home.</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <br/>
+                <!-- Hero Section -->
+                <section class="jumbotron no-padding no-margin">
+                    <style>
+                        /* Always set the map height explicitly to define the size of the div
+                         * element that contains the map. */
+                        #map {
+                            height: 450px;
+                        }
+                    </style>
+                    <div id="map"></div>
+                </section>
+                <script>
+                    let map;
+                    let infoWindow;
+                    let zoom = 16;
+
+                    let coords = {
+                        enc: {lat: 33.0580584, lng: -117.2601678},
+                    };
+                    let place_ids = {
+                        enc: 'ChIJ9yKhv4UL3IARHm-f0GtLWAI',
+                    };
+                    let url_nm = {
+                        enc: '1200+Garden+View+Rd%2C+Encinitas%2C+CA+92024',
+                    };
+                    let loc_nm = {
+                        enc: 'UC San Diego Health',
+                    };
+                    let loc_addr = {
+                        enc: '1200 Garden View Road<br>' +
+                            'Encinitas, CA 92024',
+                    };
+                    let imgs = {
+                        enc: 'https://www.dropbox.com/s/r78ti86a8aoaxck/Encinitas.jpg?raw=1',
+                    };
+                    function gen_html(name, addr, img, url_nm, place_id) {
+                        return '<div><strong>' + name + '</strong><br>'
+                            + addr + '<br>' +
+                            '<img src=' + img + " style='height:90px;width:160px;'/><br>" +
+                            `<a href='https://www.google.com/maps/search/?api=1&query=${url_nm}&query_place_id=${place_id}' target='_blank'>Open in Google Maps</a>` +
+                            '</div>';
+                    }
+
+                    function initMap() {
+                        map = new google.maps.Map(document.getElementById('map'), {
+                            center: coords.enc,
+                            zoom: zoom
+                        });
+                        infoWindow = new google.maps.InfoWindow;
+
+                        let enc_req = {
+                            placeId: place_ids.enc,
+                            fields: ['name', 'formatted_address', 'place_id', 'geometry', 'photo']
+                        };
+                        let enc_iw = new google.maps.InfoWindow({
+                            content: gen_html(loc_nm.enc, loc_addr.enc, imgs.enc, url_nm.enc, place_ids.enc),
+                            position: coords.enc_off
+                        });
+                        let enc_mrkr = new google.maps.Marker({
+                            map: map,
+                            draggable: false,
+                            animation: google.maps.Animation.DROP,
+                            position: coords.enc
+                        });
+                        enc_iw.open(map, enc_mrkr);
+                    }
+
+                    function printCoords(event) {
+                        infoWindow.setContent('<div><br><br>' + event.latLng.toString() + '<br>'
+                            + map.getZoom() + '<br>'
+                            + map.getCenter().toString() + '<br></div>');
+                        infoWindow.setPosition(event.latLng);
+                        infoWindow.open(map);
+                    }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn1i2ywrnqSIH8fL4eQ7EyuMAAttzwquQ&libraries=places&callback=initMap"
+                        async defer></script>
+
+
             </div>
         </div>
     </div>

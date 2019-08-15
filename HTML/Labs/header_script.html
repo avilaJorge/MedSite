@@ -1,0 +1,42 @@
+<script>
+    $('.title_name > a').html(
+        'Department of Radiation Medicine' +
+        ' <br /> ' +
+        'and Applied Sciences');
+    $('.title_dept').css({'display': 'none'});
+</script>
+
+<style>
+    .link-adj a {
+        color: white;
+    }
+    i {
+        display: none;
+    }
+
+</style>
+<script>
+    $(document).ready(function(){
+        setTimeout(function(){
+            $('i').css({
+                'display': 'none'
+            });
+            $('.thumbnail').css({
+                'border-style': 'none',
+                'background-color': 'inherit'
+            });
+        },1)
+    })
+</script>
+
+<style>
+    .center-parent {
+        position: relative;
+    }
+    .center-child {
+        position: absolute;
+        top: 50%;
+        height: 292px;
+        margin-top: -146px;
+    }
+</style>

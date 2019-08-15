@@ -1,9 +1,111 @@
-<section class="jumbotron jumbotron-white" style="padding-bottom: 0">
+<section class="jumbotron jumbotron-white" style="padding-bottom: 0; padding-top: 0">
+    <style>
+        .addr-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 475px;
+        }
+
+    </style>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <p>16918 Dove Canyon Road, Suite 103<br/>San Diego, CA 92127<br/><a href="tel:8586495100" target="_blank" rel="noopener noreferrer">(858) 649-5100</a>
-                <p style="padding-bottom: 0">Our 4S Ranch facility offers patients in In Land North County San Diego access to UC San Diego Radiation Oncologists and state-of-the-art radiation therapy (RT) equipment closer to their home.</p>
+            <div class="col-md-6 text-center">
+                <div class="addr-container">
+                    <h3>16918 Dove Canyon Road, Suite 103<br/>San Diego, CA 92127<br/><br/><a href="tel:8586495100" target="_blank" rel="noopener noreferrer">(858) 649-5100</a></h3>
+                    <p style="padding-bottom: 0"><br/>Our 4S Ranch facility offers patients in In Land North County San Diego access to UC San Diego Radiation Oncologists and state-of-the-art radiation therapy (RT) equipment closer to their home.</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <br/>
+                <!-- Hero Section -->
+                <section class="jumbotron no-padding no-margin">
+                    <style>
+                        /* Always set the map height explicitly to define the size of the div
+                         * element that contains the map. */
+                        #map {
+                            height: 450px;
+                        }
+                    </style>
+                    <div id="map"></div>
+                </section>
+                <script>
+                    let map;
+                    let infoWindow;
+                    let zoom = 16;
+
+                    let coords = {
+                        r4s: {lat: 33.0175318, lng: -117.1120602},
+                    };
+                    let place_ids = {
+                        r4s: 'ChIJZfHph-n324ARRIzL9yAa1bs',
+                    };
+                    let url_nm = {
+                        r4s: 'UCSD+Center+for+Neuromodulation',
+                    };
+                    let loc_nm = {
+                        r4s: 'UCSD Center for Neuromodulation<br> (4S Ranch)',
+                    };
+                    let loc_addr = {
+                        mcc: '3855 Health Sciences Drive<br>' +
+                            'La Jolla, CA 92037',
+                        r4s: '16918 Dove Canyon Road #100<br>' +
+                            'San Diego, CA 92127',
+                        enc: '1200 Garden View Road<br>' +
+                            'Encinitas, CA 92024',
+                        prt: '9730 Summers Ridge Rd<br>' +
+                            'San Diego, CA 92121',
+                        vst: '959 Lane Avenue<br>' +
+                            'San Diego, CA 91914'
+                    };
+                    let imgs = {
+                        mcc: 'https://www.dropbox.com/s/ouogvgizr3tgfij/MCC.jpg?raw=1',
+                        r4s: 'https://www.dropbox.com/s/yt9qf553fdi8xbv/4s_ranch.jpg?raw=1',
+                        enc: 'https://www.dropbox.com/s/r78ti86a8aoaxck/Encinitas.jpg?raw=1',
+                        prt: 'https://www.dropbox.com/s/9wrvm4n9d1bb7r1/Proton%20Outside.png?raw=1',
+                        vst: 'https://www.dropbox.com/s/5f1s6be0o4ywsw0/Chula_Vista.jpg?raw=1'
+                    };
+                    function gen_html(name, addr, img, url_nm, place_id) {
+                        return '<div><strong>' + name + '</strong><br>'
+                            + addr + '<br>' +
+                            '<img src=' + img + " style='height:90px;width:160px;'/><br>" +
+                            `<a href='https://www.google.com/maps/search/?api=1&query=${url_nm}&query_place_id=${place_id}' target='_blank'>Open in Google Maps</a>` +
+                            '</div>';
+                    }
+
+                    function initMap() {
+                        map = new google.maps.Map(document.getElementById('map'), {
+                            center: coords.r4s,
+                            zoom: zoom
+                        });
+                        infoWindow = new google.maps.InfoWindow;
+
+                        let r4s_req = {
+                            placeId: place_ids.r4s,
+                            fields: ['name', 'formatted_address', 'place_id', 'geometry', 'photo']
+                        };
+                        let r4s_iw = new google.maps.InfoWindow({
+                            content: gen_html(loc_nm.r4s, loc_addr.r4s, imgs.r4s, url_nm.r4s, place_ids.r4s),
+                        });
+                        let r4s_mrkr = new google.maps.Marker({
+                            map: map,
+                            draggable: false,
+                            animation: google.maps.Animation.DROP,
+                            position: coords.r4s
+                        });
+                        r4s_iw.open(map, r4s_mrkr);
+                    }
+
+                    function printCoords(event) {
+                        infoWindow.setContent('<div><br><br>' + event.latLng.toString() + '<br>'
+                            + map.getZoom() + '<br>'
+                            + map.getCenter().toString() + '<br></div>');
+                        infoWindow.setPosition(event.latLng);
+                        infoWindow.open(map);
+                    }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn1i2ywrnqSIH8fL4eQ7EyuMAAttzwquQ&libraries=places&callback=initMap"
+                        async defer></script>
             </div>
         </div>
     </div>

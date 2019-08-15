@@ -1,9 +1,155 @@
-<section class="jumbotron jumbotron-white" style="padding-bottom: 0">
+<section class="jumbotron jumbotron-white" style="padding-bottom: 0; padding-top: 0">
+    <style>
+        .addr-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 475px;
+        }
+
+    </style>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <p>1200 Garden View Road<br/>Encinitas, CA 92024<br/><a href="tel:8586578200">(858) 657-8200</a></p>
-                <p style="padding-bottom: 0">Our Encinitas facility offers patients in North County San Diego access to UC San Diego Radiation Oncologists and state-of-the-art radiation therapy (RT) equipment closer to their home.</p>
+            <div class="col-md-6 text-center">
+                <div class="addr-container">
+                    <h3>1200 Garden View Road<br/>Encinitas, CA 92024<br/><br/><a href="tel:8586578200">(858) 657-8200</a></h3>
+                    <p style="padding-bottom: 0"><br/>Our Encinitas facility offers patients in North County San Diego access to UC San Diego Radiation Oncologists and state-of-the-art radiation therapy (RT) equipment closer to their home.</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <br/>
+                <!-- Hero Section -->
+                <section class="jumbotron no-padding no-margin">
+                    <style>
+                        /* Always set the map height explicitly to define the size of the div
+                         * element that contains the map. */
+                        #map {
+                            height: 475px;
+                            outline-style: auto;
+                            outline-width: 2px;
+                        }
+                    </style>
+                    <div id="map"></div>
+                </section>
+                <script>
+                    let map;
+                    let infoWindow;
+                    let zoom = 16;
+
+                    let coords = {
+                        mcc: {lat: 32.8786467, lng: -117.2230577},
+                        r4s: {lat: 33.0175318, lng: -117.1120602},
+                        enc: {lat: 33.0580584, lng: -117.2601678},
+                        prt: {lat: 32.89327, lng: -117.17038},
+                        vst: {lat: 32.6509861, lng: -116.9610962},
+                        cnt: {lat: 32.97415548947729, lng: -117.16902758165508},
+                        mcc_off: {lat: 32.85558239499693,  lng: -117.66608262726083},
+                        r4s_off: {lat: 33.14023197384485,  lng: -116.97454837988283},
+                        enc_off: {lat: 33.10441398993866,  lng: -117.65097642608896},
+                        prt_off: {lat: 32.91581817560608,  lng: -116.66296984239727},
+                        vst_off: {lat: 32.67453627300406,  lng: -116.72064806505352}
+                    };
+                    let place_ids = {
+                        mcc: 'ChIJRc0FMNgG3IARvf0D6nIGjZQ',
+                        r4s: 'ChIJZfHph-n324ARRIzL9yAa1bs',
+                        enc: 'ChIJ9yKhv4UL3IARHm-f0GtLWAI',
+                        prt: 'ChIJ7ffd_Kb424AR5yoF5f55KR4',
+                        vst: 'ChIJWWbbUBNF2YARKyQMmA9IMJw'
+                    };
+                    let url_nm = {
+                        mcc: 'Moores+Cancer+Center',
+                        r4s: 'UCSD+Center+for+Neuromodulation',
+                        enc: '1200+Garden+View+Rd%2C+Encinitas%2C+CA+92024',
+                        prt: 'California+Protons+Cancer+Therapy+Center',
+                        vst: '959+Lane+Ave+Chula+Vista%2C+CA+91914'
+                    };
+                    let loc_nm = {
+                        mcc: 'Moores Cancer Center',
+                        r4s: 'UCSD Center for Neuromodulation<br> (4S Ranch)',
+                        enc: 'UC San Diego Health',
+                        prt: 'California Protons<br> Cancer Therapy Center',
+                        vst: 'UC San Diego Health'
+                    };
+                    let loc_addr = {
+                        mcc: '3855 Health Sciences Drive<br>' +
+                            'La Jolla, CA 92037',
+                        r4s: '16918 Dove Canyon Road #100<br>' +
+                            'San Diego, CA 92127',
+                        enc: '1200 Garden View Road<br>' +
+                            'Encinitas, CA 92024',
+                        prt: '9730 Summers Ridge Rd<br>' +
+                            'San Diego, CA 92121',
+                        vst: '959 Lane Avenue<br>' +
+                            'San Diego, CA 91914'
+                    };
+                    let imgs = {
+                        mcc: 'https://www.dropbox.com/s/ouogvgizr3tgfij/MCC.jpg?raw=1',
+                        r4s: 'https://www.dropbox.com/s/yt9qf553fdi8xbv/4s_ranch.jpg?raw=1',
+                        enc: 'https://www.dropbox.com/s/r78ti86a8aoaxck/Encinitas.jpg?raw=1',
+                        prt: 'https://www.dropbox.com/s/9wrvm4n9d1bb7r1/Proton%20Outside.png?raw=1',
+                        vst: 'https://www.dropbox.com/s/5f1s6be0o4ywsw0/Chula_Vista.jpg?raw=1'
+                    };
+                    function gen_html(name, addr, img, url_nm, place_id) {
+                        return '<div><strong>' + name + '</strong><br>'
+                            + addr + '<br>' +
+                            '<img src=' + img + " style='height:90px;width:160px;'/><br>" +
+                            `<a href='https://www.google.com/maps/search/?api=1&query=${url_nm}&query_place_id=${place_id}' target='_blank'>Open in Google Maps</a>` +
+                            '</div>';
+                    }
+
+                    function initMap() {
+                        map = new google.maps.Map(document.getElementById('map'), {
+                            center: coords.mcc,
+                            zoom: zoom
+                        });
+                        infoWindow = new google.maps.InfoWindow;
+
+                        let mcc_req = {
+                            placeId: place_ids.mcc,
+                            fields: ['name', 'formatted_address', 'place_id', 'geometry', 'photo']
+                        };
+                        let r4s_req = {
+                            placeId: place_ids.r4s,
+                            fields: ['name', 'formatted_address', 'place_id', 'geometry', 'photo']
+                        };
+                        let enc_req = {
+                            placeId: place_ids.enc,
+                            fields: ['name', 'formatted_address', 'place_id', 'geometry', 'photo']
+                        };
+                        let prt_req = {
+                            placeId: place_ids.prt,
+                            fields: ['name', 'formatted_address', 'place_id', 'geometry', 'photo']
+                        };
+                        let vst_req = {
+                            placeId: place_ids.vst,
+                            fields: ['name', 'formatted_address', 'place_id', 'geometry', 'photo']
+                        };
+
+                        let mcc_iw = new google.maps.InfoWindow({
+                            content: gen_html(loc_nm.mcc, loc_addr.mcc, imgs.mcc, url_nm.mcc, place_ids.mcc),
+                        });
+
+                        let mcc_mrkr = new google.maps.Marker({
+                            map: map,
+                            draggable: false,
+                            animation: google.maps.Animation.DROP,
+                            position: coords.mcc
+                        });
+
+                        mcc_iw.open(map, mcc_mrkr);
+                    }
+
+                    function printCoords(event) {
+                        infoWindow.setContent('<div><br><br>' + event.latLng.toString() + '<br>'
+                            + map.getZoom() + '<br>'
+                            + map.getCenter().toString() + '<br></div>');
+                        infoWindow.setPosition(event.latLng);
+                        infoWindow.open(map);
+                    }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn1i2ywrnqSIH8fL4eQ7EyuMAAttzwquQ&libraries=places&callback=initMap"
+                        async defer>
+                </script>
             </div>
         </div>
     </div>

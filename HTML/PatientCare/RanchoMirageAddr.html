@@ -1,9 +1,64 @@
-<section class="jumbotron jumbotron-white" style="padding-bottom: 0">
+<section class="jumbotron jumbotron-white" style="padding-bottom: 0; padding-top: 0">
+    <style>
+        .addr-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 475px;
+        }
+
+    </style>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <p>35900 Bob Hope Drive, Suite 275<br/>Rancho Mirage, CA 92270<br/><a href="tel:7606743600">(760) 674-3600</a></p>
-                <p style="padding-bottom: 0">Our Rancho Mirage Facility offers patients in the Coachella Valley access to state-of-the-art radiation therapy under the care of UC San Diego physicians.</p>
+            <div class="col-md-6 text-center">
+                <div class="addr-container">
+                    <h3>35900 Bob Hope Drive, Suite 275<br/>Rancho Mirage, CA 92270<br/><br/><a href="tel:7606743600">(760) 674-3600</a></h3>
+                    <p style="padding-bottom: 0"><br/>Our Rancho Mirage Facility offers patients in the Coachella Valley access to state-of-the-art radiation therapy under the care of UC San Diego physicians.</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <br/>
+                <!-- Hero Section -->
+                <section class="jumbotron no-padding no-margin">
+                    <style>
+                        /* Always set the map height explicitly to define the size of the div
+                         * element that contains the map. */
+                        #map {
+                            height: 450px;
+                        }
+                    </style>
+                    <div id="map"></div>
+                </section>
+                <script>
+                    let map;
+                    let infoWindow;
+                    let zoom = 16;
+
+                    let coords = {lat: 33.7893582, lng: -116.405406};
+                    let content = '<div><strong>Rancho Mirage</strong><br/>35900 Bob Hope Drive<br/>Suite 275<br/>Rancho Mirage, CA 92270<br/>' +
+                        `<a href='https://www.google.com/maps/search/?api=1&query=35900+Bob+Hope+Dr+#275' target='_blank'>Open in Google Maps</a></div>`;
+
+                    function initMap() {
+                        map = new google.maps.Map(document.getElementById('map'), {
+                            center: coords,
+                            zoom: zoom
+                        });
+                        infoWindow = new google.maps.InfoWindow;
+
+                        let loc_iw = new google.maps.InfoWindow({
+                            content: content
+                        });
+                        let mrkr = new google.maps.Marker({
+                            map: map,
+                            draggable: false,
+                            animation: google.maps.Animation.DROP,
+                            position: coords
+                        });
+                        loc_iw.open(map, mrkr);
+                    }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn1i2ywrnqSIH8fL4eQ7EyuMAAttzwquQ&libraries=places&callback=initMap"
+                        async defer></script>
             </div>
         </div>
     </div>

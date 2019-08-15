@@ -18,3 +18,20 @@
         'display': 'none'
     });
 </script>
+<script>
+    $(document).ready(function(){
+        setTimeout(function(){
+            $('.title_name > a').text(
+                'Department of Radiation Medicine' +
+                ' <br /> ' +
+                'and Applied Sciences');
+        },1)
+    })
+</script>
+<script>
+    $('.title_name > a').html(
+        'Department of Radiation Medicine' +
+        ' <br /> ' +
+        'and Applied Sciences');
+    $('.title_dept').css({'display': 'none'});
+</script>

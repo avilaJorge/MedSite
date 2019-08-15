@@ -13,42 +13,52 @@
     let map;
     let infoWindow;
     let zoom = 10;
+    let color = '#006a96';
+    let icon_link = 'https://www.dropbox.com/s/lh2s3hbzjlzmbxn/ucsd-dot.png?raw=1';
 
-    let coords = {
+    const coords = {
         mcc: {lat: 32.8786467, lng: -117.2230577},
         r4s: {lat: 33.0175318, lng: -117.1120602},
         enc: {lat: 33.0580584, lng: -117.2601678},
-        prt: {lat: 32.89327, lng: -117.17038},
+        prt: {lat: 32.89327,   lng: -117.17038},
         vst: {lat: 32.6509861, lng: -116.9610962},
-        cnt: {lat: 32.97415548947729, lng: -117.16902758165508},
+        elc: {lat: 32.7804848, lng: -115.5788568},
+        rmr: {lat: 33.7893582, lng: -116.405406},
+        cnt: {lat: 33.01331738557047, lng: -117.02757860704571},
         mcc_off: {lat: 32.85558239499693,  lng: -117.66608262726083},
         r4s_off: {lat: 33.14023197384485,  lng: -116.97454837988283},
         enc_off: {lat: 33.10441398993866,  lng: -117.65097642608896},
         prt_off: {lat: 32.91581817560608,  lng: -116.66296984239727},
         vst_off: {lat: 32.67453627300406,  lng: -116.72064806505352}
     };
-    let place_ids = {
+    const place_ids = {
         mcc: 'ChIJRc0FMNgG3IARvf0D6nIGjZQ',
         r4s: 'ChIJZfHph-n324ARRIzL9yAa1bs',
         enc: 'ChIJ9yKhv4UL3IARHm-f0GtLWAI',
         prt: 'ChIJ7ffd_Kb424AR5yoF5f55KR4',
-        vst: 'ChIJWWbbUBNF2YARKyQMmA9IMJw'
+        vst: 'ChIJWWbbUBNF2YARKyQMmA9IMJw',
+        elc: 'ChIJl4Oe6Ehh14ARmj5-AxrWup0',
+        rmr: ''
     };
-    let url_nm = {
+    const url_nm = {
         mcc: 'Moores+Cancer+Center',
         r4s: 'UCSD+Center+for+Neuromodulation',
         enc: '1200+Garden+View+Rd%2C+Encinitas%2C+CA+92024',
         prt: 'California+Protons+Cancer+Therapy+Center',
-        vst: '959+Lane+Ave+Chula+Vista%2C+CA+91914'
+        vst: '959+Lane+Ave+Chula+Vista%2C+CA+91914',
+        elc: 'Imperial+Valley+Cancer+Center',
+        rmr: '35900+Bob+Hope+Dr+#275'
     };
-    let loc_nm = {
+    const loc_nm = {
         mcc: 'Moores Cancer Center',
         r4s: 'UCSD Center for Neuromodulation<br> (4S Ranch)',
         enc: 'UC San Diego Health',
         prt: 'California Protons<br> Cancer Therapy Center',
-        vst: 'UC San Diego Health'
+        vst: 'UC San Diego Health',
+        elc: 'El Centro<br/>Imperial Valley Cancer Center',
+        rmr: 'UC San Diego Health<br/>Rancho Mirage'
     };
-    let loc_addr = {
+    const loc_addr = {
         mcc: '3855 Health Sciences Drive<br>' +
              'La Jolla, CA 92037',
         r4s: '16918 Dove Canyon Road #100<br>' +
@@ -58,15 +68,26 @@
         prt: '9730 Summers Ridge Rd<br>' +
              'San Diego, CA 92121',
         vst: '959 Lane Avenue<br>' +
-             'San Diego, CA 91914'
+             'San Diego, CA 91914',
+        elc: '1410 S La Brucherie Rd <br/>' +
+             'Suite B<br/>' +
+             'El Centro, CA 92243',
+        rmr: '35900 Bob Hope Drive<br/>' +
+             'Suite 275<br/>' +
+             'Rancho Mirage, CA 92270'
     };
-    let imgs = {
+    const imgs = {
         mcc: 'https://www.dropbox.com/s/ouogvgizr3tgfij/MCC.jpg?raw=1',
         r4s: 'https://www.dropbox.com/s/yt9qf553fdi8xbv/4s_ranch.jpg?raw=1',
         enc: 'https://www.dropbox.com/s/r78ti86a8aoaxck/Encinitas.jpg?raw=1',
         prt: 'https://www.dropbox.com/s/9wrvm4n9d1bb7r1/Proton%20Outside.png?raw=1',
-        vst: 'https://www.dropbox.com/s/5f1s6be0o4ywsw0/Chula_Vista.jpg?raw=1'
+        vst: 'https://www.dropbox.com/s/5f1s6be0o4ywsw0/Chula_Vista.jpg?raw=1',
+        elc: 'https://www.dropbox.com/s/ooriv85z3jcdb56/El_Centro.jpg?raw=1',
+        rmr: ''
     };
+    const rmr_content = '<div><strong>Rancho Mirage</strong><br/>35900 Bob Hope Drive<br/>Suite 275<br/>Rancho Mirage, CA 92270<br/>' +
+        `<a href='https://www.google.com/maps/search/?api=1&query=35900+Bob+Hope+Dr+#275' target='_blank'>Open in Google Maps</a></div>`;
+
     function gen_html(name, addr, img, url_nm, place_id) {
         return '<div><strong>' + name + '</strong><br>'
         + addr + '<br>' +
@@ -78,11 +99,50 @@
     function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
             center: coords.cnt,
-            zoom: zoom
+            zoom: zoom,
+            maxZoom: zoom,
+            disableDefaultUI: true
         });
         infoWindow = new google.maps.InfoWindow;
 
-        map.addListener('click', printCoords);
+        // map.addListener('click', printCoords);
+
+
+        // Define a symbol using a predefined path (an arrow)
+        // supplied by the Google Maps JavaScript API.
+        let lineSymbol = {
+            path: google.maps.SymbolPath.FORWARD_OPEN_ARROW
+        };
+        let elc_line = new google.maps.Polyline({
+            icons: [{
+                icon: lineSymbol,
+                offset: '100%'
+            }],
+            strokeColor: color,
+            strokeWeight: 6,
+            geodesic: true,
+            map: map
+        });
+        let rmr_line = new google.maps.Polyline({
+            icons: [{
+                icon: lineSymbol,
+                offset: '100%'
+            }],
+            strokeColor: color,
+            strokeWeight: 6,
+            geodesic: true,
+            map: map
+        });
+        let elc_arrow_iw = new google.maps.InfoWindow({
+            content: "<strong>El Centro</strong>",
+            disableAutoPan: true,
+            zIndex: 0
+        });
+        let rmr_arrow_iw = new google.maps.InfoWindow({
+            content: "<strong>Rancho Mirage</strong>",
+            disableAutoPan: true,
+            zIndex: 1
+        });
 
         let mcc_req = {
             placeId: place_ids.mcc,
@@ -107,88 +167,191 @@
 
         let mcc_iw = new google.maps.InfoWindow({
             content: gen_html(loc_nm.mcc, loc_addr.mcc, imgs.mcc, url_nm.mcc, place_ids.mcc),
-            position: coords.mcc_off
+            position: coords.mcc_off,
+            disableAutoPan: true,
+            zIndex: 100
         });
         let r4s_iw = new google.maps.InfoWindow({
             content: gen_html(loc_nm.r4s, loc_addr.r4s, imgs.r4s, url_nm.r4s, place_ids.r4s),
-            position: coords.r4s_off
+            position: coords.r4s_off,
+            disableAutoPan: true,
+            zIndex: 90
         });
         let enc_iw = new google.maps.InfoWindow({
             content: gen_html(loc_nm.enc, loc_addr.enc, imgs.enc, url_nm.enc, place_ids.enc),
-            position: coords.enc_off
+            position: coords.enc_off,
+            disableAutoPan: true,
+            zIndex: 80
         });
         let prt_iw = new google.maps.InfoWindow({
             content: gen_html(loc_nm.prt, loc_addr.prt, imgs.prt, url_nm.prt, place_ids.prt),
-            position: coords.prt_off
+            position: coords.prt_off,
+            disableAutoPan: true,
+            zIndex: 70
         });
         let vst_iw = new google.maps.InfoWindow({
             content: gen_html(loc_nm.vst, loc_addr.vst, imgs.vst, url_nm.vst, place_ids.vst),
-            position: coords.vst_off
+            position: coords.vst_off,
+            disableAutoPan: true,
+            zIndex: 60
+        });
+        let elc_iw = new google.maps.InfoWindow({
+            content: gen_html(loc_nm.elc, loc_addr.elc, imgs.elc, url_nm.elc, place_ids.elc),
+            disableAutoPan: true,
+            zIndex: 50
+        });
+        let rmr_iw = new google.maps.InfoWindow({
+            content: rmr_content,
+            disableAutoPan: true,
+            zIndex: 40
         });
 
         let mcc_mrkr = new google.maps.Marker({
             map: map,
             draggable: false,
             animation: google.maps.Animation.DROP,
-            position: coords.mcc
+            position: coords.mcc,
+            icon: {
+                url: icon_link
+            }
         });
         let r4s_mrkr = new google.maps.Marker({
             map: map,
             draggable: false,
             animation: google.maps.Animation.DROP,
-            position: coords.r4s
+            position: coords.r4s,
+            icon: {
+                url: icon_link
+            }
         });
         let enc_mrkr = new google.maps.Marker({
             map: map,
             draggable: false,
             animation: google.maps.Animation.DROP,
-            position: coords.enc
+            position: coords.enc,
+            icon: {
+                url: icon_link
+            }
         });
         let prt_mrkr = new google.maps.Marker({
             map: map,
             draggable: false,
             animation: google.maps.Animation.DROP,
-            position: coords.prt
+            position: coords.prt,
+            icon: {
+                url: icon_link
+            }
         });
         let vst_mrkr = new google.maps.Marker({
             map: map,
             draggable: false,
             animation: google.maps.Animation.DROP,
-            position: coords.vst
+            position: coords.vst,
+            icon: {
+                url: icon_link
+            }
+        });
+        let elc_mrkr =  new google.maps.Marker({
+            map: map,
+            draggable: false,
+            animation: google.maps.Animation.DROP,
+            position: coords.elc,
+            icon: {
+                url: icon_link
+            }
+        });
+        let rmr_mrkr = new google.maps.Marker({
+            map: map,
+            draggable: false,
+            animation: google.maps.Animation.DROP,
+            position: coords.rmr,
+            icon: {
+                url: icon_link
+            }
+        });
+        let mrkrs = [mcc_mrkr, r4s_mrkr, enc_mrkr, prt_mrkr, vst_mrkr, elc_mrkr, rmr_mrkr];
+        mcc_mrkr.addListener('click', () => {
+            mrkrs.forEach((elem) => {
+                elem.setAnimation(null);
+            });
+            mcc_mrkr.setAnimation(google.maps.Animation.BOUNCE);
+            window.open(`https://www.google.com/maps/search/?api=1&query=${url_nm.mcc}&query_place_id=${place_ids.mcc}`);
+        });
+        r4s_mrkr.addListener('click', () => {
+            mrkrs.forEach((elem) => {
+                elem.setAnimation(null);
+            });
+            r4s_mrkr.setAnimation(google.maps.Animation.BOUNCE);
+            window.open(`https://www.google.com/maps/search/?api=1&query=${url_nm.r4s}&query_place_id=${place_ids.r4}`);
+        });
+        enc_mrkr.addListener('click', () => {
+            mrkrs.forEach((elem) => {
+                elem.setAnimation(null);
+            });
+            enc_mrkr.setAnimation(google.maps.Animation.BOUNCE);
+            window.open(`https://www.google.com/maps/search/?api=1&query=${url_nm.enc}&query_place_id=${place_ids.enc}`);
+        });
+        prt_mrkr.addListener('click', () => {
+            mrkrs.forEach((elem) => {
+                elem.setAnimation(null);
+            });
+            prt_mrkr.setAnimation(google.maps.Animation.BOUNCE);
+            window.open(`https://www.google.com/maps/search/?api=1&query=${url_nm.prt}&query_place_id=${place_ids.prt}`);
+        });
+        vst_mrkr.addListener('click', () => {
+            mrkrs.forEach((elem) => {
+                elem.setAnimation(null);
+            });
+            vst_mrkr.setAnimation(google.maps.Animation.BOUNCE);
+            window.open(`https://www.google.com/maps/search/?api=1&query=${url_nm.vst}&query_place_id=${place_ids.vst}`);
+        });
+        elc_mrkr.addListener('click', () => {
+            mrkrs.forEach((elem) => {
+                elem.setAnimation(null);
+            });
+            elc_mrkr.setAnimation(google.maps.Animation.BOUNCE);
+            window.open(`https://www.google.com/maps/search/?api=1&query=${url_nm.elc}&query_place_id=${place_ids.elc}`);
+        });
+        rmr_mrkr.addListener('click', () => {
+            mrkrs.forEach((elem) => {
+                elem.setAnimation(null);
+            });
+            rmr_mrkr.setAnimation(google.maps.Animation.BOUNCE);
+            window.open('https://www.google.com/maps/search/?api=1&query=35900+Bob+Hope+Dr+#275');
         });
 
         let mcc_path = new google.maps.Polyline({
             path: [coords.mcc, coords.mcc_off],
             geodesic: true,
-            strokeColor: '#FF0000',
+            strokeColor: color,
             strokeOpacity: 1.0,
             strokeWeight: 2
         });
         let r4s_path = new google.maps.Polyline({
             path: [coords.r4s, coords.r4s_off],
             geodesic: true,
-            strokeColor: '#FF0000',
+            strokeColor: color,
             strokeOpacity: 1.0,
             strokeWeight: 2
         });
         let enc_path = new google.maps.Polyline({
             path: [coords.enc, coords.enc_off],
             geodesic: true,
-            strokeColor: '#FF0000',
+            strokeColor: color,
             strokeOpacity: 1.0,
             strokeWeight: 2
         });
         let prt_path = new google.maps.Polyline({
             path: [coords.prt, coords.prt_off],
             geodesic: true,
-            strokeColor: '#FF0000',
+            strokeColor: color,
             strokeOpacity: 1.0,
             strokeWeight: 2
         });
         let vst_path = new google.maps.Polyline({
             path: [coords.vst, coords.vst_off],
             geodesic: true,
-            strokeColor: '#FF0000',
+            strokeColor: color,
             strokeOpacity: 1.0,
             strokeWeight: 2
         });
@@ -214,11 +377,62 @@
             vst_path.setMap(null);
         });
 
+        map.addListener('bounds_changed', () => {
+            let elc = {lat: 32.7804848, lng: -115.5788568};
+            let rmr = {lat: 33.7893582, lng: -116.405406};
+
+            let map_center = map.getCenter();
+            let bounds =  map.getBounds();
+            let ne = bounds.getNorthEast();
+            let sw = bounds.getSouthWest();
+
+            let draw_arrow = (loc, arrow, iw) => {
+                if (!bounds.contains(loc)) {
+                    // Create the polyline and add the symbol via the 'icons' property.
+                    arrow.setVisible(true);
+                    iw.setMap(map);
+
+                    let target = {lat: loc.lat, lng: loc.lng};
+                    if (target.lng > ne.lng()) {
+                        target.lng = ne.lng();
+                    }
+                    if (target.lng < sw.lng()) {
+                        target.lng = sw.lng();
+                    }
+                    if (target.lat > ne.lat()) {
+                        target.lat = ne.lat();
+                    }
+                    if (target.lat < sw.lat()) {
+                        target.lat = sw.lat();
+                    }
+
+                    target = new google.maps.LatLng(target.lat, target.lng);
+                    target = google.maps.geometry.spherical.interpolate(map_center, target, 0.90);
+
+                    let origin = google.maps.geometry.spherical.interpolate(map_center, target, 0.75);
+                    // console.log(origin.toJSON());
+                    arrow.setPath([origin, target]);
+                    iw.setPosition(origin);
+                } else {
+                    arrow.setVisible(false);
+                    iw.setMap(null);
+                }
+            };
+            draw_arrow(elc, elc_line, elc_arrow_iw);
+            draw_arrow(rmr, rmr_line, rmr_arrow_iw);
+        });
+
+        elc_iw.open(map, elc_mrkr);
+        rmr_iw.open(map, rmr_mrkr);
         mcc_iw.open(map);
         r4s_iw.open(map);
         enc_iw.open(map);
         prt_iw.open(map);
         vst_iw.open(map);
+
+        map.drawArrow = (target, arrow) => {
+
+        }
     }
 
     function printCoords(event) {
@@ -228,6 +442,7 @@
         infoWindow.setPosition(event.latLng);
         infoWindow.open(map);
     }
+
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn1i2ywrnqSIH8fL4eQ7EyuMAAttzwquQ&libraries=places&callback=initMap"
         async defer></script>
