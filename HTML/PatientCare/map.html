@@ -25,6 +25,7 @@
         elc: {lat: 32.7804848, lng: -115.5788568},
         rmr: {lat: 33.7893582, lng: -116.405406},
         cnt: {lat: 33.01331738557047, lng: -117.02757860704571},
+        smc: {lat: 32.92400785978867, lng: -117.1136509620675},
         mcc_off: {lat: 32.85558239499693,  lng: -117.66608262726083},
         r4s_off: {lat: 33.14023197384485,  lng: -116.97454837988283},
         enc_off: {lat: 33.10441398993866,  lng: -117.65097642608896},
@@ -97,8 +98,17 @@
     }
 
     function initMap() {
+        let w = $(window).width();
+        let center = coords.cnt;
+
+        console.log(w);
+
+        if (w < 1200) {
+            center = coords.smc;
+        }
+
         map = new google.maps.Map(document.getElementById('map'), {
-            center: coords.cnt,
+            center: center,
             zoom: zoom,
             maxZoom: zoom,
             disableDefaultUI: true
@@ -166,31 +176,31 @@
         };
 
         let mcc_iw = new google.maps.InfoWindow({
-            content: gen_html(loc_nm.mcc, loc_addr.mcc, imgs.mcc, url_nm.mcc, place_ids.mcc),
+            content: (w >= 1200) ? gen_html(loc_nm.mcc, loc_addr.mcc, imgs.mcc, url_nm.mcc, place_ids.mcc) : 'La Jolla',
             position: coords.mcc_off,
             disableAutoPan: true,
             zIndex: 100
         });
         let r4s_iw = new google.maps.InfoWindow({
-            content: gen_html(loc_nm.r4s, loc_addr.r4s, imgs.r4s, url_nm.r4s, place_ids.r4s),
+            content: (w >= 1200) ? gen_html(loc_nm.r4s, loc_addr.r4s, imgs.r4s, url_nm.r4s, place_ids.r4s) : '4S Ranch',
             position: coords.r4s_off,
             disableAutoPan: true,
             zIndex: 90
         });
         let enc_iw = new google.maps.InfoWindow({
-            content: gen_html(loc_nm.enc, loc_addr.enc, imgs.enc, url_nm.enc, place_ids.enc),
+            content: (w >= 1200) ? gen_html(loc_nm.enc, loc_addr.enc, imgs.enc, url_nm.enc, place_ids.enc) : 'Encinitas',
             position: coords.enc_off,
             disableAutoPan: true,
             zIndex: 80
         });
         let prt_iw = new google.maps.InfoWindow({
-            content: gen_html(loc_nm.prt, loc_addr.prt, imgs.prt, url_nm.prt, place_ids.prt),
+            content: (w >= 1200) ? gen_html(loc_nm.prt, loc_addr.prt, imgs.prt, url_nm.prt, place_ids.prt) : 'Proton Center',
             position: coords.prt_off,
             disableAutoPan: true,
             zIndex: 70
         });
         let vst_iw = new google.maps.InfoWindow({
-            content: gen_html(loc_nm.vst, loc_addr.vst, imgs.vst, url_nm.vst, place_ids.vst),
+            content: (w >= 1200) ? gen_html(loc_nm.vst, loc_addr.vst, imgs.vst, url_nm.vst, place_ids.vst) : 'South Bay',
             position: coords.vst_off,
             disableAutoPan: true,
             zIndex: 60
@@ -355,11 +365,14 @@
             strokeOpacity: 1.0,
             strokeWeight: 2
         });
-        mcc_path.setMap(map);
-        r4s_path.setMap(map);
-        enc_path.setMap(map);
-        prt_path.setMap(map);
-        vst_path.setMap(map);
+
+        if (w >= 1200) {
+            mcc_path.setMap(map);
+            r4s_path.setMap(map);
+            enc_path.setMap(map);
+            prt_path.setMap(map);
+            vst_path.setMap(map);
+        }
 
         mcc_iw.addListener('closeclick', () => {
             mcc_path.setMap(null);
@@ -424,11 +437,19 @@
 
         elc_iw.open(map, elc_mrkr);
         rmr_iw.open(map, rmr_mrkr);
-        mcc_iw.open(map);
-        r4s_iw.open(map);
-        enc_iw.open(map);
-        prt_iw.open(map);
-        vst_iw.open(map);
+        if (w >= 1200) {
+            mcc_iw.open(map);
+            r4s_iw.open(map);
+            enc_iw.open(map);
+            prt_iw.open(map);
+            vst_iw.open(map);
+        } else {
+            mcc_iw.open(map, mcc_mrkr);
+            r4s_iw.open(map, r4s_mrkr);
+            enc_iw.open(map, enc_mrkr);
+            prt_iw.open(map, prt_mrkr);
+            vst_iw.open(map, vst_mrkr);
+        }
 
         map.drawArrow = (target, arrow) => {
 

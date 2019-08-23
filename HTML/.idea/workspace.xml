@@ -6,12 +6,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a089365c-5644-4102-ab8c-c80991cb1273" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MD_Residency/Our-Program.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MD_Residency/clinical-rotations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MD_Residency/didactics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MD_Residency/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Residency/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatientCare/4SRanchAddr.html" beforeDir="false" afterPath="$PROJECT_DIR$/PatientCare/4SRanchAddr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatientCare/CalPrtnCntrAddr.html" beforeDir="false" afterPath="$PROJECT_DIR$/PatientCare/CalPrtnCntrAddr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatientCare/ElCentroAddr.html" beforeDir="false" afterPath="$PROJECT_DIR$/PatientCare/ElCentroAddr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatientCare/La_Jolla_Addr.html" beforeDir="false" afterPath="$PROJECT_DIR$/PatientCare/La_Jolla_Addr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatientCare/NorthEncinitasAddr.html" beforeDir="false" afterPath="$PROJECT_DIR$/PatientCare/NorthEncinitasAddr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatientCare/RanchoMirageAddr.html" beforeDir="false" afterPath="$PROJECT_DIR$/PatientCare/RanchoMirageAddr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatientCare/SBEastlakeAddr.html" beforeDir="false" afterPath="$PROJECT_DIR$/PatientCare/SBEastlakeAddr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatientCare/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/PatientCare/map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scratch" beforeDir="false" afterPath="$PROJECT_DIR$/scratch" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,15 +28,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="256">
+              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding>
-                <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#586#591#0" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#a#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scratch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="976" column="24" selection-start-line="975" selection-start-column="39" selection-end-line="976" selection-end-column="25" />
+            <state relative-caret-position="598">
+              <caret line="671" column="31" selection-start-line="671" selection-start-column="31" selection-end-line="671" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#section#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#3;n#!!top" expanded="true" />
@@ -67,64 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/rotator-d-trigger.xsl">
+        <entry file="file://$PROJECT_DIR$/PatientCare/map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="123" selection-start-line="2" selection-start-column="123" selection-end-line="2" selection-end-column="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/rotator-d.xsl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/Publications.xsl">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rotator.xsl">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MD_Residency/didactics.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-                <element signature="e#1026#1031#0" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#6;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#7;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#section#7;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#8;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#9;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#section#9;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#10;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#11;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#section#11;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#section#12;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#12;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#section#12;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#section#12;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="3172">
+              <caret line="455" column="8" selection-start-line="455" selection-start-column="8" selection-end-line="455" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -159,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Research/research-boxes.html" />
-        <option value="$PROJECT_DIR$/XSL Files/programs-v2-trigger.xsl" />
         <option value="$PROJECT_DIR$/XSL Files/programs-v2.xsl" />
         <option value="$PROJECT_DIR$/XSL Files/programs-v3-trigger.xsl" />
         <option value="$PROJECT_DIR$/XSL Files/programs-v3.xsl" />
@@ -179,20 +134,13 @@
         <option value="$PROJECT_DIR$/XSL Files/News.xsl" />
         <option value="$PROJECT_DIR$/OurTeam/Medical_Physicists/template_styles_0807.html" />
         <option value="$PROJECT_DIR$/OurTeam/Medical_Physicists/template.html" />
-        <option value="$PROJECT_DIR$/PatientCare/NorthEncinitasAddr.html" />
-        <option value="$PROJECT_DIR$/PatientCare/4SRanchAddr.html" />
-        <option value="$PROJECT_DIR$/PatientCare/CalPrtnCntrAddr.html" />
-        <option value="$PROJECT_DIR$/PatientCare/SBEastlakeAddr.html" />
         <option value="$PROJECT_DIR$/XSL Files/lajolla-profiles-trigger.xsl" />
         <option value="$PROJECT_DIR$/XSL Files/lajolla-profiles.xsl" />
         <option value="$PROJECT_DIR$/XSL Files/profiles-trigger.xsl" />
         <option value="$PROJECT_DIR$/XSL Files/profiles.xsl" />
-        <option value="$PROJECT_DIR$/PatientCare/ElCentroAddr.html" />
-        <option value="$PROJECT_DIR$/PatientCare/RanchoMirageAddr.html" />
         <option value="$PROJECT_DIR$/formatter.html" />
         <option value="$PROJECT_DIR$/Education/formatter.html" />
         <option value="$PROJECT_DIR$/Labs/header_script.html" />
-        <option value="$PROJECT_DIR$/PatientCare/map.html" />
         <option value="$PROJECT_DIR$/Research/our-center.html" />
         <option value="$USER_HOME$/Downloads/video_content.html" />
         <option value="$PROJECT_DIR$/news.html" />
@@ -201,7 +149,6 @@
         <option value="$USER_HOME$/Downloads/rotator-a.xsl" />
         <option value="$USER_HOME$/Downloads/rotator-a-trigger.xsl" />
         <option value="$PROJECT_DIR$/MD_Residency/didactics.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.html" />
         <option value="$PROJECT_DIR$/MD_Residency/default.html" />
         <option value="$USER_HOME$/Downloads/rotator-c-trigger.xsl" />
         <option value="$USER_HOME$/Downloads/rotator-c.xsl" />
@@ -209,15 +156,24 @@
         <option value="$USER_HOME$/Downloads/Publications.xsl" />
         <option value="$USER_HOME$/Downloads/rotator-d-trigger.xsl" />
         <option value="$USER_HOME$/Downloads/rotator-d.xsl" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_6.html" />
+        <option value="$PROJECT_DIR$/PatientCare/La_Jolla_Addr.html" />
+        <option value="$PROJECT_DIR$/PatientCare/NorthEncinitasAddr.html" />
+        <option value="$PROJECT_DIR$/PatientCare/4SRanchAddr.html" />
+        <option value="$PROJECT_DIR$/PatientCare/SBEastlakeAddr.html" />
+        <option value="$PROJECT_DIR$/PatientCare/ElCentroAddr.html" />
+        <option value="$PROJECT_DIR$/PatientCare/RanchoMirageAddr.html" />
+        <option value="$PROJECT_DIR$/PatientCare/CalPrtnCntrAddr.html" />
+        <option value="$PROJECT_DIR$/PatientCare/map.html" />
         <option value="$PROJECT_DIR$/scratch" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5491" />
-    <option name="y" value="91" />
-    <option name="width" value="1941" />
-    <option name="height" value="2112" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="3829" />
+    <option name="width" value="1940" />
+    <option name="height" value="2111" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -236,6 +192,11 @@
               <item name="HTML" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML" type="462c0819:PsiDirectoryNode" />
               <item name="MD_Residency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="PatientCare" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTML" type="b2602c69:ProjectViewProjectNode" />
@@ -348,18 +309,18 @@
       <workItem from="1565640785772" duration="22227000" />
       <workItem from="1565819159609" duration="13267000" />
       <workItem from="1566261323853" duration="880000" />
-      <workItem from="1566406428320" duration="23051000" />
+      <workItem from="1566406428320" duration="32873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="564252000" />
+    <option name="totallyTimeSpent" value="574074000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3833" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="3833" y="0" width="1293" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10401891" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21019109" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -371,7 +332,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32501948" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32705882" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -382,13 +343,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OurTeam/Medical_Physicists/template_styles_0807.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PatientCare/pub.xsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -438,24 +392,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/NorthEncinitasAddr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PatientCare/NorthEncinitasMap.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2016">
           <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/4SRanchAddr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="26" selection-end-line="111" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -480,13 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/CalPrtnCntrAddr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PatientCare/ElCentroMap.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -508,17 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/SBEastlakeAddr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/XSL Files/lajolla-profiles-trigger.xsl" />
     <entry file="file://$PROJECT_DIR$/XSL Files/profiles.xsl">
       <provider selected="true" editor-type-id="text-editor">
@@ -533,28 +455,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/La_Jolla_Addr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="28" selection-end-line="157" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/XSL Files/profiles-trigger.xsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/RanchoMirageAddr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -598,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/ElCentroAddr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/video_content.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
@@ -621,13 +518,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/call_button.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PatientCare/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="422" column="10" selection-start-line="422" selection-start-column="10" selection-end-line="422" selection-end-column="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/news.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -683,27 +573,6 @@
             <element signature="n#style#0;n#section#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MD_Residency/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,16 +657,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MD_Residency/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#img#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PatientCare/NorthEncinitasAddr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="103" column="50" selection-start-line="103" selection-start-column="50" selection-end-line="103" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PatientCare/ElCentroAddr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PatientCare/CalPrtnCntrAddr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PatientCare/RanchoMirageAddr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PatientCare/SBEastlakeAddr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PatientCare/4SRanchAddr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PatientCare/La_Jolla_Addr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PatientCare/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3172">
+          <caret line="455" column="8" selection-start-line="455" selection-start-column="8" selection-end-line="455" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scratch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="976" column="24" selection-start-line="975" selection-start-column="39" selection-end-line="976" selection-end-column="25" />
+        <state relative-caret-position="598">
+          <caret line="671" column="31" selection-start-line="671" selection-start-column="31" selection-end-line="671" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#section#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#3;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#586#591#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#a#1;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
